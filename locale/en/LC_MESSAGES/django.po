@@ -2539,17 +2539,17 @@ msgstr ""
 
 #: templates/index.html:167
 msgid ""
-"                            <i class=\"h5\">Хотите зарабатывать на казино, "
+"Хотите зарабатывать на казино, "
 "но не хотите рисковать?</i><br> Тогда вы пришли\n"
 "                            в нужное место."
 msgstr ""
-"<i class = \" h5 \"> Want to make money at the casino,"
+"Want to make money at the casino,"
 "but you don't want to risk it? </i> <br> Then you came \n"
 "in the right place."
 
 #: templates/index.html:170
 msgid ""
-"                            <p><i>Casino Investment</i> это уникальная "
+"<p><i>Casino Investment</i> это уникальная "
 "платформа позволяющая абсолютно любому человеку\n"
 "                                зарабатывать стабильную, высокую прибыль на "
 "казино не испытывая судьбу. </p>\n"
