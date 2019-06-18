@@ -1,0 +1,73 @@
+{% extends 'base.html' %} {% load i18n static staticfiles %}
+{% block title %}{% trans 'Связаться с нами' %}{% endblock %}
+{% block wrapper %}
+    <section class="section swatch-cold-yellow section-nopadding" style="height: 220px;">
+        <div data-jarallax data-speed="0.2" class="jarallax mh-100">
+            <img src="{{ STATIC_URL }}images/design/section-bg/c2.jpg" class="jarallax-img ">
+            <div class="mask flex-center rgba-black-strong">
+                <header class="section-header text-center underline pt-5">
+                    <p class="headline super hairline text-center mt-5">{% trans 'Contact Us' %}</p>
+                </header>
+            </div>
+        </div>
+    </section>
+    <section class="section section-short swatch-cold-yellow">
+        <div class="container">
+            <div class="justify-content-center">
+                {% if contacts.exists %}
+                    <div class="card text-white bg-dark text-center m-3">
+                        <div class="row">
+                            <div class="card-header col-6">
+                                <h1 class="text-left mt-4 ml-4"><i
+                                        class="far fa-address-card mr-2"></i>{% trans "Our contacts:" %}</h1>
+                            </div>
+                            <div class="card-body row justify-content-around col-6">
+                                {% for elem in contacts %}
+                                    <div class="col-6 row">
+                                        <i class="{{ elem.element }} mr-2"></i> {{ elem.data }}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% if notification %}
+                    <div class="alert alert-success alert-dismissible fade show my-2" role="alert">
+                        {{ notification }}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% endif %}
+                <div class="card text-white bg-dark text-center my-3">
+                    <div class="card-body">
+                        <h1 class="text-left mt-4 ml-4"><i class="fas fa-envelope pr-2"></i>{% trans "Write to us:" %}
+                        </h1>
+                        <form method="POST" class="post-form" action=".">
+                            {% csrf_token %}
+                            <div class="row justify-content-center text-left m-2">
+                                <div class="md-form mx-5">
+                                    <i class="fas fa-user prefix text-white"></i>
+                                    {{ form.name }}
+                                    <label class="text-white" for="BalanceOutField">{% trans 'Name' %}</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-envelope prefix text-white"></i>
+                                    {{ form.email }}
+                                    <label class="text-white" for="BalanceOutField">E-mail</label>
+                                </div>
+                            </div>
+                            {{ form.message }}
+                            <div class="rounded-bottom amber text-center ">
+                                <button class="btn btn-outline-red-accent btn-rounded btn-block amber z-depth-0 mb-n1"
+                                        type="submit">
+                                    <strong class="h5">{% trans "Send" %}</strong></button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

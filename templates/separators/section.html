@@ -1,0 +1,13 @@
+<section class="section {{ instance.theme }}"> {% load cms_tags %}
+    {% if instance.top_decor %}{% include instance.top_decor_path %}{% endif %}
+    <div class="container">
+        <header class="section-header underline">
+            <h1 class="headline super hairline">{{ instance.header }}</h1>
+            <p class="big">{{ instance.short_text }}</p>
+        </header>
+        <div class="text-center">
+            {% placeholder "content" %}
+        </div>
+    </div>
+    {% if instance.bttm_decor %}{% include instance.bttm_decor_path %}{% endif %}
+</section>

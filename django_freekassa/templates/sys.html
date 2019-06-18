@@ -1,0 +1,42 @@
+<!DOCTYPE html> {% load staticfiles sekizai_tags i18n %}
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}{{ request.site.name }}</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicons/favicon.ico' %}"/>
+    <link rel="icon" type="image/png" href="{% static 'images/favicons/favicon.png' %}"/>
+    <!-- For iPhone 4 Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="{% static 'images/favicons/apple-touch-icon-114x114-precomposed.png' %}">
+    <!-- For iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="{% static 'images/favicons/apple-touch-icon-72x72-precomposed.png' %}">
+    <!-- For iPhone: -->
+    <link rel="apple-touch-icon-precomposed"
+          href="{% static 'images/favicons/apple-touch-icon-60x60-precomposed.png' %}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700,900&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'css/util.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" media="screen">
+    {% render_block css %}
+</head>
+
+<body>
+
+<form method="POST" action="" accept-charset="UTF-8" name="payment" id="merchant-form">
+
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,2672 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-31 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Investions/forms.py:30 Investions/forms.py:92
+msgid "Password"
+msgstr ""
+
+#: Investions/forms.py:31
+msgid "Remember Me"
+msgstr ""
+
+#: Investions/forms.py:37
+msgid "This account is currently inactive."
+msgstr ""
+
+#: Investions/forms.py:40
+msgid "The e-mail address and/or password you specified are not correct."
+msgstr ""
+
+#: Investions/forms.py:43
+msgid "The username and/or password you specified are not correct."
+msgstr ""
+
+#: Investions/forms.py:52 Investions/forms.py:86
+msgid "E-mail address"
+msgstr ""
+
+#: Investions/forms.py:55 Investions/templates/contact.html:30
+msgid "E-mail"
+msgstr ""
+
+#: Investions/forms.py:60 Investions/forms.py:64
+msgid "Username"
+msgstr ""
+
+#: Investions/forms.py:71
+msgid "Username or e-mail"
+msgstr ""
+
+#: Investions/forms.py:75
+msgctxt "field label"
+msgid "Login"
+msgstr ""
+
+#: Investions/forms.py:94
+msgid "Confirm password"
+msgstr ""
+
+#: Investions/forms.py:122
+msgid "The password and confirm password fields do not match."
+msgstr ""
+
+#: Investions/models.py:12
+msgid "User balance"
+msgstr ""
+
+#: Investions/models.py:13
+msgid "Crypto Wallet"
+msgstr ""
+
+#: Investions/models.py:14
+msgid "Email верифицирован"
+msgstr ""
+
+#: Investions/models.py:38
+msgid "White-Black"
+msgstr ""
+
+#: Investions/models.py:39
+msgid "White-Yellow"
+msgstr ""
+
+#: Investions/models.py:40
+msgid "Black-Yellow"
+msgstr ""
+
+#: Investions/models.py:41
+msgid "DarkGrey-Yellow"
+msgstr ""
+
+#: Investions/models.py:45
+msgid "Color Theme"
+msgstr ""
+
+#: Investions/models.py:51
+msgid "Top Decorator"
+msgstr ""
+
+#: Investions/models.py:55
+msgid "Bottom Decorator"
+msgstr ""
+
+#: Investions/models.py:59
+msgid "Section Title"
+msgstr ""
+
+#: Investions/models.py:61
+msgid "Pricing"
+msgstr ""
+
+#: Investions/models.py:65
+msgid "Holder for Invest Plugins"
+msgstr ""
+
+#: Investions/models.py:70
+msgid "Plan Name"
+msgstr ""
+
+#: Investions/models.py:74
+msgid "Minimal Investition"
+msgstr ""
+
+#: Investions/models.py:77
+msgid "Maximal Investition Limit"
+msgstr ""
+
+#: Investions/models.py:80 Investions/templates/overview.html:44
+msgid "Period"
+msgstr ""
+
+#: Investions/models.py:81
+msgid "Investition period in days"
+msgstr ""
+
+#: Investions/models.py:84
+msgid "Daily Rate"
+msgstr ""
+
+#: Investions/models.py:87
+msgid "Is Active?"
+msgstr ""
+
+#: Investions/models.py:88
+msgid "Plan visibility for new investitions"
+msgstr ""
+
+#: Investions/models.py:110 Investions/models.py:123
+msgid "Investition Plan"
+msgstr ""
+
+#: Investions/models.py:117
+msgid "User"
+msgstr ""
+
+#: Investions/models.py:125 Investions/models.py:167
+msgid "Start Date"
+msgstr ""
+
+#: Investions/models.py:126 Investions/templates/overview.html:43
+#: Investions/templates/overview.html:124
+msgid "Invested"
+msgstr ""
+
+#: Investions/models.py:127 Investions/templates/overview.html:128
+msgid "Status"
+msgstr ""
+
+#: Investions/models.py:152
+msgid "Investition Active"
+msgstr ""
+
+#: Investions/models.py:161
+msgid "Open"
+msgstr ""
+
+#: Investions/models.py:162
+msgid "Closed"
+msgstr ""
+
+#: Investions/templates/about.html:2 Investions/templates/base.html:52
+#: Investions/templates/index.html:163
+msgid "О компании"
+msgstr "About"
+
+#: Investions/templates/about.html:9
+msgid "О КОМПАНИИ"
+msgstr "About Company"
+
+#: Investions/templates/about.html:19
+#, python-format
+msgid "\n"
+"                            <p class=\"card-text text-white\">Слава, азарт, "
+"желание разбогатеть эти факторы являются двигателем бизнеса уже несколько "
+"сотен лет. Миллиарды долларов ежедневно крутятся внутри игорного бизнеса, "
+"всевозможные казино и лотереи привлекают людей своей игривостью и "
+"авантюризмом. Первое казино в Европе было создано в 1638 году в Венеции, это "
+"был игорный дом Ридитто построенный по приказу правительства в здании "
+"церкви, уже тогда множество людей проявляло тщетные попытки разбогатеть, "
+"играя в рулетку.</p>\n"
+"                            <p class=\"card-text text-white\">Возможно даже "
+"и вы пробовали свою удачу в казино и скорей всего у вас ничего из этого не "
+"вышло. В 2012 году на встрече в отеле SKYLOFT в Лас Вегас владельцы трех "
+"крупных казино заключили альянс по созданию on-line игорной индустрии. Суть "
+"этого альянса заключалась в создании целой сети on-line казино и лотереи.</p>\n"
+"                            <p class=\"card-text text-white\">Casino "
+"Investment являются совладельцами этого бизнеса с 2015 года имея 24%% акций "
+"альянса. Наша роль в альянсе привлечение инвестиций для создания большего "
+"количества казино и продвижения их на рынке.</p>\n"
+"                            <p class=\"card-text text-white\">С данной "
+"миссией, мы создали площадку Casino Investment, первая в мире мульти-"
+"маркетинговая финансовая платформа, состоящая из трех основных действий.</p>\n"
+"                            <h6 class=\"font-weight-bold amber-text\">Привлечение инвестиций, Обеспечение диверсификации, Открытие и "
+"продвижение проектов</h6>\n"
+"                            <p class=\"card-text text-white\">Финансовые "
+"менеджеры Casino Investment создали систему, позволяющую инвестировать без "
+"рисков. Данная система уникальна и крайне проста.</p>\n"
+"                            <p class=\"card-text text-white\">Инвесторы, "
+"вкладывая деньги получают ежедневную прибыль, наши специалисты распределяют "
+"инвестиционный фонд по проектам, 58%% идут в уже работающие проекты для "
+"увеличения фонда Джек пота и привлечения большего количества игроков, 12%% "
+"инвестиций распределятся между проектами находящихся на финальной стадии "
+"подготовки и выпуску на рынок, 30%% фонда распределяются между стартапами по "
+"мере их актуальности.</p>\n"
+"                            <p class=\"card-text text-white\">Что бы "
+"исключить все риски, Casino Investment ежедневно получает часть прибыли от "
+"проектов для прокрутки на бирже. Наши трейдеры увеличивают прибыль на 35%% "
+"после чего часть прибыли мы выплачиваем нашим инвесторам.</p>\n"
+"                            <hr>\n"
+"                            <h6 class=\"font-weight-bold amber-text\">Таким "
+"образом Casino Investment обеспечивает своим инвесторам качественный "
+"инвестиционный продукт, без издержек и рисков.</h6>"
+
+msgstr ""
+#"<p class = \" card-text text-white \"> Glory, excitement,"
+#"the desire to get rich, these factors are already the engine of business"
+#"hundreds of years. Billions of dollars revolve daily inside the gambling business,"
+#"all kinds of casinos and lotteries attract people with their playfulness and"
+#"adventurism. The first casino in Europe was created in 1638 in Venice, it is"
+#"there was a Riditto gambling house built by order of the government in the building"
+#"churches, even then a lot of people showed vain attempts to get rich,"
+#"playing roulette. </p> \n"
+#"<p class = \" card-text text-white \"> Maybe even"
+#"and you tried your luck at the casino and most likely you have none of this"
+#"came out. In 2012, at a meeting at the SKYLOFT hotel in Las Vegas, the owners of three"
+#"major casinos have entered into an alliance to create an on-line gaming industry. The bottom line"
+#"of this alliance was to create a whole network of on-line casinos and lotteries. </p> \n"
+#"<p class = \" card-text text-white \"> Casino"
+#"Investment are co-owners of this business since 2015 with 24 %% of shares"
+#"Alliance. Our role in the alliance is to attract investment to create more"
+#"the number of casinos and their promotion in the market. </p> \n"
+#"<p class = \" card-text text-white \"> With this"
+#"by mission, we created Casino Investment Platform, the world's first multi-"
+#"a marketing financial platform consisting of three main actions. </p> \n"
+#"<h6 class = \" font-weight-bold amber-text \"> Attracting investment, Diversification, Opening and "
+#"project promotion </h6> \n"
+#"<p class = \" card-text text-white \"> Financial"
+#"Casino Investment managers created a system that allows you to invest without"
+#"risks. This system is unique and extremely simple. </p> \n"
+#"<p class = \" card-text text-white \"> Investors,"
+#"by investing money they receive a daily profit, our experts distribute"
+#"investment fund on projects, 58 %% go to already working projects for"
+#"increasing the pool of jackpot and attracting more players, 12 %%"
+#"investments will be distributed between projects at the final stage"
+#"preparation and release to the market, 30% of the fund are distributed among startups by"
+#"as relevant. </p> \n"
+#"<p class = \" card-text text-white \"> whatever"
+#"exclude all risks Casino Investment receives a daily profit from"
+#"projects for scrolling on the stock exchange. Our traders increase profits by 35 %%"
+#"after which we pay part of the profits to our investors. </p> \n"
+#"<hr> \n"
+#"<h6 class = \" font-weight-bold amber-text \"> So"
+#"the way Casino Investment provides its investors with quality"
+#"investment product, without cost and risk. </h6>"
+
+#: Investions/templates/account/account_inactive.html:5
+#: Investions/templates/account/account_inactive.html:8
+#: untitled/123/templates/account/account_inactive.html:5
+#: untitled/123/templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr ""
+
+#: Investions/templates/account/account_inactive.html:10
+#: untitled/123/templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr ""
+
+#: Investions/templates/account/email.html:5
+#: untitled/123/templates/account/email.html:5
+msgid "Account"
+msgstr ""
+
+#: Investions/templates/account/email.html:8
+#: untitled/123/templates/account/email.html:8
+msgid "E-mail Addresses"
+msgstr ""
+
+#: Investions/templates/account/email.html:10
+#: untitled/123/templates/account/email.html:10
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: Investions/templates/account/email.html:24
+#: untitled/123/templates/account/email.html:24
+msgid "Verified"
+msgstr ""
+
+#: Investions/templates/account/email.html:26
+#: untitled/123/templates/account/email.html:26
+msgid "Unverified"
+msgstr ""
+
+#: Investions/templates/account/email.html:28
+#: untitled/123/templates/account/email.html:28
+msgid "Primary"
+msgstr ""
+
+#: Investions/templates/account/email.html:34
+#: untitled/123/templates/account/email.html:34
+msgid "Make Primary"
+msgstr ""
+
+#: Investions/templates/account/email.html:35
+#: untitled/123/templates/account/email.html:35
+msgid "Re-send Verification"
+msgstr ""
+
+#: Investions/templates/account/email.html:36
+#: untitled/123/templates/account/email.html:36
+msgid "Remove"
+msgstr ""
+
+#: Investions/templates/account/email.html:43
+#: untitled/123/templates/account/email.html:43
+msgid "Warning:"
+msgstr ""
+
+#: Investions/templates/account/email.html:43
+#: untitled/123/templates/account/email.html:43
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: Investions/templates/account/email.html:48
+#: untitled/123/templates/account/email.html:48
+msgid "Add E-mail Address"
+msgstr ""
+
+#: Investions/templates/account/email.html:53
+#: untitled/123/templates/account/email.html:53
+msgid "Add E-mail"
+msgstr ""
+
+#: Investions/templates/account/email.html:62
+#: untitled/123/templates/account/email.html:62
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: Investions/templates/account/email/email_confirmation_message.txt:1
+#: untitled/123/templates/account/email/email_confirmation_message.txt:1
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because user %(user_display)s has given yours "
+"as an e-mail address to connect their account.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+msgstr ""
+
+#: Investions/templates/account/email/email_confirmation_message.txt:7
+#: untitled/123/templates/account/email/email_confirmation_message.txt:7
+#, python-format
+msgid ""
+"Thank you from %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+#: Investions/templates/account/email/email_confirmation_subject.txt:3
+#: untitled/123/templates/account/email/email_confirmation_subject.txt:3
+msgid "Please Confirm Your E-mail Address"
+msgstr ""
+
+#: Investions/templates/account/email/password_reset_key_message.txt:1
+#: untitled/123/templates/account/email/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+
+#: Investions/templates/account/email/password_reset_key_message.txt:8
+#: untitled/123/templates/account/email/password_reset_key_message.txt:8
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr ""
+
+#: Investions/templates/account/email/password_reset_key_message.txt:10
+#: untitled/123/templates/account/email/password_reset_key_message.txt:10
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+#: Investions/templates/account/email/password_reset_key_subject.txt:3
+#: untitled/123/templates/account/email/password_reset_key_subject.txt:3
+msgid "Password Reset E-mail"
+msgstr ""
+
+#: Investions/templates/account/email_confirm.html:6
+#: Investions/templates/account/email_confirm.html:10
+#: untitled/123/templates/account/email_confirm.html:6
+#: untitled/123/templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: Investions/templates/account/email_confirm.html:16
+#: untitled/123/templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: Investions/templates/account/email_confirm.html:20
+#: untitled/123/templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr ""
+
+#: Investions/templates/account/email_confirm.html:27
+#: untitled/123/templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: Investions/templates/account/login.html:6
+#: Investions/templates/account/login.html:54
+#: untitled/123/templates/account/login.html:6
+#: untitled/123/templates/account/login.html:10
+#: untitled/123/templates/account/login.html:43
+msgid "Sign In"
+msgstr ""
+
+#: Investions/templates/account/login.html:44
+#: untitled/123/templates/account/login.html:42
+msgid "Forgot Password?"
+msgstr ""
+
+#: Investions/templates/account/login.html:59
+#: untitled/123/templates/account/login.html:15
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: Investions/templates/account/login.html:69
+#: env/lib/python3.6/site-packages/django/utils/text.py:233
+#: untitled/123/templates/account/login.html:25
+msgid "or"
+msgstr ""
+
+#: Investions/templates/account/login.html:76
+#: untitled/123/templates/account/login.html:32
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+#: Investions/templates/account/logout.html:5
+#: Investions/templates/account/logout.html:10
+#: untitled/123/templates/account/logout.html:5
+#: untitled/123/templates/account/logout.html:9
+#: untitled/123/templates/account/logout.html:18
+msgid "Sign Out"
+msgstr ""
+
+#: Investions/templates/account/logout.html:12
+#: untitled/123/templates/account/logout.html:11
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: Investions/templates/account/logout.html:20
+msgid "Yes, sign out"
+msgstr ""
+
+#: Investions/templates/account/logout.html:21
+msgid "No, back to cabinet"
+msgstr ""
+
+#: Investions/templates/account/messages/cannot_delete_primary_email.txt:2
+#: untitled/123/templates/account/messages/cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr ""
+
+#: Investions/templates/account/messages/email_confirmation_sent.txt:2
+#: untitled/123/templates/account/messages/email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr ""
+
+#: Investions/templates/account/messages/email_confirmed.txt:2
+#: untitled/123/templates/account/messages/email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr ""
+
+#: Investions/templates/account/messages/email_deleted.txt:2
+#: untitled/123/templates/account/messages/email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr ""
+
+#: Investions/templates/account/messages/logged_in.txt:4
+#: untitled/123/templates/account/messages/logged_in.txt:4
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr ""
+
+#: Investions/templates/account/messages/logged_out.txt:2
+#: untitled/123/templates/account/messages/logged_out.txt:2
+msgid "You have signed out."
+msgstr ""
+
+#: Investions/templates/account/messages/password_changed.txt:2
+#: untitled/123/templates/account/messages/password_changed.txt:2
+msgid "Password successfully changed."
+msgstr ""
+
+#: Investions/templates/account/messages/password_set.txt:2
+#: untitled/123/templates/account/messages/password_set.txt:2
+msgid "Password successfully set."
+msgstr ""
+
+#: Investions/templates/account/messages/primary_email_set.txt:2
+#: untitled/123/templates/account/messages/primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr ""
+
+#: Investions/templates/account/messages/unverified_primary_email.txt:2
+#: untitled/123/templates/account/messages/unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr ""
+
+#: Investions/templates/account/password_change.html:5
+#: Investions/templates/account/password_change.html:8
+#: Investions/templates/account/password_change.html:13
+#: Investions/templates/account/password_reset_from_key.html:4
+#: Investions/templates/account/password_reset_from_key.html:7
+#: Investions/templates/account/password_reset_from_key_done.html:4
+#: Investions/templates/account/password_reset_from_key_done.html:7
+#: untitled/123/templates/account/password_change.html:5
+#: untitled/123/templates/account/password_change.html:8
+#: untitled/123/templates/account/password_change.html:13
+#: untitled/123/templates/account/password_reset_from_key.html:4
+#: untitled/123/templates/account/password_reset_from_key.html:7
+#: untitled/123/templates/account/password_reset_from_key_done.html:4
+#: untitled/123/templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr ""
+
+#: Investions/templates/account/password_reset.html:6
+#: Investions/templates/account/password_reset.html:10
+#: Investions/templates/account/password_reset_done.html:6
+#: Investions/templates/account/password_reset_done.html:9
+#: untitled/123/templates/account/password_reset.html:6
+#: untitled/123/templates/account/password_reset.html:10
+#: untitled/123/templates/account/password_reset_done.html:6
+#: untitled/123/templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: Investions/templates/account/password_reset.html:15
+#: untitled/123/templates/account/password_reset.html:15
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: Investions/templates/account/password_reset.html:20
+#: untitled/123/templates/account/password_reset.html:20
+msgid "Reset My Password"
+msgstr ""
+
+#: Investions/templates/account/password_reset.html:23
+#: untitled/123/templates/account/password_reset.html:23
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: Investions/templates/account/password_reset_done.html:15
+#: untitled/123/templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: Investions/templates/account/password_reset_from_key.html:7
+#: untitled/123/templates/account/password_reset_from_key.html:7
+msgid "Bad Token"
+msgstr ""
+
+#: Investions/templates/account/password_reset_from_key.html:11
+#: untitled/123/templates/account/password_reset_from_key.html:11
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: Investions/templates/account/password_reset_from_key.html:17
+#: untitled/123/templates/account/password_reset_from_key.html:17
+msgid "change password"
+msgstr ""
+
+#: Investions/templates/account/password_reset_from_key.html:20
+#: Investions/templates/account/password_reset_from_key_done.html:8
+#: untitled/123/templates/account/password_reset_from_key.html:20
+#: untitled/123/templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr ""
+
+#: Investions/templates/account/password_set.html:5
+#: Investions/templates/account/password_set.html:8
+#: Investions/templates/account/password_set.html:13
+#: untitled/123/templates/account/password_set.html:5
+#: untitled/123/templates/account/password_set.html:8
+#: untitled/123/templates/account/password_set.html:13
+msgid "Set Password"
+msgstr ""
+
+#: Investions/templates/account/signup.html:5
+#: untitled/123/templates/account/signup.html:5
+msgid "Signup"
+msgstr ""
+
+#: Investions/templates/account/signup.html:51
+#: untitled/123/templates/account/signup.html:8
+#: untitled/123/templates/account/signup.html:18
+msgid "Sign Up"
+msgstr ""
+
+#: Investions/templates/account/signup.html:55
+#: untitled/123/templates/account/signup.html:10
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: Investions/templates/account/signup_closed.html:5
+#: Investions/templates/account/signup_closed.html:8
+#: untitled/123/templates/account/signup_closed.html:5
+#: untitled/123/templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr ""
+
+#: Investions/templates/account/signup_closed.html:10
+#: untitled/123/templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: Investions/templates/account/snippets/already_logged_in.html:5
+#: untitled/123/templates/account/snippets/already_logged_in.html:5
+msgid "Note"
+msgstr ""
+
+#: Investions/templates/account/snippets/already_logged_in.html:5
+#: untitled/123/templates/account/snippets/already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr ""
+
+#: Investions/templates/account/verification_sent.html:5
+#: Investions/templates/account/verification_sent.html:8
+#: Investions/templates/account/verified_email_required.html:5
+#: Investions/templates/account/verified_email_required.html:8
+#: untitled/123/templates/account/verification_sent.html:5
+#: untitled/123/templates/account/verification_sent.html:8
+#: untitled/123/templates/account/verified_email_required.html:5
+#: untitled/123/templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: Investions/templates/account/verification_sent.html:10
+#: untitled/123/templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: Investions/templates/account/verified_email_required.html:12
+#: untitled/123/templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+
+#: Investions/templates/account/verified_email_required.html:16
+#: untitled/123/templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: Investions/templates/account/verified_email_required.html:20
+#: untitled/123/templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: Investions/templates/admin/search_form.html:7
+msgid "Search"
+msgstr ""
+
+#: Investions/templates/admin/search_form.html:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Investions/templates/admin/search_form.html:9
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+#: Investions/templates/admin/search_form.html:9
+msgid "Show all"
+msgstr ""
+
+#: Investions/templates/balance.html:3
+msgid "Пополнить баланс"
+msgstr "Cash In"
+
+#: Investions/templates/balance.html:8 Investions/templates/cash_in.html:16
+msgid "Сумма пополнения"
+msgstr "Amount"
+
+#: Investions/templates/balance.html:11
+msgid "Пополнить"
+msgstr "Cash In"
+
+#: Investions/templates/base.html:49
+msgid "Главная"
+msgstr "Home"
+
+#: Investions/templates/base.html:55 Investions/templates/faq.html:2
+#: Investions/templates/faq.html:9
+msgid "FAQ"
+msgstr ""
+
+#: Investions/templates/base.html:58 Investions/templates/rules.html:2
+msgid "Правила"
+msgstr "Rules"
+
+#: Investions/templates/base.html:61
+msgid "Контакты"
+msgstr "Contacts"
+
+#: Investions/templates/base.html:83
+msgid "Личный Кабинет"
+msgstr "Personal Area"
+
+#: Investions/templates/base.html:85
+msgid "Выйти"
+msgstr "Sign Out"
+
+#: Investions/templates/base.html:90
+msgid "Войти"
+msgstr "Sign In"
+
+#: Investions/templates/base.html:133
+msgid "Casino Investment © 2018 Все права защищены"
+msgstr "Casino Investment © 2018 All Rights Reserved"
+
+#: Investions/templates/cash_in.html:2 Investions/templates/cash_in.html:3
+#: Investions/templates/plugins/dashnav.html:3
+#: Investions/templates/plugins/dashnav.html:4
+msgid "Cash In"
+msgstr ""
+
+#: Investions/templates/cash_in.html:12
+msgid "funds in"
+msgstr ""
+
+#: Investions/templates/cash_in.html:52 Investions/templates/cash_out.html:46
+msgid "Make Payment"
+msgstr ""
+
+#: Investions/templates/cash_out.html:2 Investions/templates/cash_out.html:3
+msgid "Withdrawal"
+msgstr ""
+
+#: Investions/templates/cash_out.html:10
+msgid "funds out"
+msgstr ""
+
+#: Investions/templates/cash_out.html:23
+msgid "Your Card Number or BTC wallet address"
+msgstr ""
+
+#: Investions/templates/contact.html:2
+msgid "Связаться с нами"
+msgstr "Contact Us"
+
+#: Investions/templates/contact.html:9
+msgid "Contact Us"
+msgstr ""
+
+#: Investions/templates/contact.html:25
+msgid "Name"
+msgstr ""
+
+#: Investions/templates/contact.html:36
+msgid "Send"
+msgstr ""
+
+#: Investions/templates/faq.html:29
+msgid "What is Casino Investment?"
+msgstr ""
+
+#: Investions/templates/faq.html:37
+msgid ""
+"Casino Investment is an online platform created by Casino Investment\n"
+"                                                Organization. Adjustable "
+"United\n"
+"                                                Kingdom Company House "
+"Authority located at Kensington Gardens, London W8\n"
+"                                                4PX."
+msgstr ""
+
+#: Investions/templates/faq.html:52
+msgid "Who manages an investment portfolio?"
+msgstr ""
+
+#: Investions/templates/faq.html:60
+msgid ""
+"All funds invested in Casino Investment managed by a team of professional\n"
+"                                                investment\n"
+"                                                managers collected "
+"specifically for this purpose by the Directorate\n"
+"                                                Casino Investment\n"
+"                                                Company."
+msgstr ""
+
+#: Investions/templates/faq.html:76
+msgid "How to earn Casino Investment?"
+msgstr ""
+
+#: Investions/templates/faq.html:85
+msgid ""
+"The main activity of the company is considered to be investment in the\n"
+"                                                gambling\n"
+"                                                industry, investing in "
+"startups, casinos and lotteries. But we must not\n"
+"                                                forget about the additional "
+"trading\n"
+"                                                card Casino Investment."
+msgstr ""
+
+#: Investions/templates/faq.html:101
+msgid "What do I need to do to become a customer Casino Investment?"
+msgstr ""
+
+#: Investions/templates/faq.html:109
+msgid ""
+"To become an investor meters need to pass a simple registration.\n"
+"                                                Registration will not take "
+"you long after you register, you will get the\n"
+"                                                right to invest\n"
+"                                                in the company Casino "
+"Investment. Please\n"
+"                                                note that by agreeing to the "
+"rules you agree that you are over 18 and\n"
+"                                                you do not violate\n"
+"                                                your country's laws."
+msgstr ""
+
+#: Investions/templates/faq.html:127
+msgid "How many accounts can I open in your program?"
+msgstr ""
+
+#: Investions/templates/faq.html:135
+msgid "Casino Investment rules allow the use of not more than one account."
+msgstr ""
+
+#: Investions/templates/faq.html:147
+msgid "How can I access my account?"
+msgstr ""
+
+#: Investions/templates/faq.html:155
+msgid ""
+"If you are a registered user of Casino Investment, please click on the\n"
+"                                                \"Login\" button at\n"
+"                                                the top of the site, enter "
+"your username and password in the appropriate\n"
+"                                                fields and\n"
+"                                                click \"Login\" button. You "
+"will be\n"
+"                                                redirected to your account "
+"automatically as soon as you make the above\n"
+"                                                listed. If you have not "
+"registered yet,\n"
+"                                                please register."
+msgstr ""
+
+#: Investions/templates/faq.html:174
+msgid "What to do immediately after the access to the personal account?"
+msgstr ""
+
+#: Investions/templates/faq.html:182
+msgid ""
+"After gaining access to your personal account, we recommend that you\n"
+"                                                familiarize\n"
+"                                                yourself with the "
+"functionality, you examine the proposed investment\n"
+"                                                plan. Enter the data of your "
+"electronic purses, so that\n"
+"                                                the program could send you "
+"to profit. Carefully\n"
+"                                                include your correct their "
+"data to send funds to your account."
+msgstr ""
+
+#: Investions/templates/faq.html:199
+msgid "How can I change my personal information in my account?"
+msgstr ""
+
+#: Investions/templates/faq.html:207
+msgid ""
+"Sign into your account and click \"Account\n"
+"                                                settings\" To go to a page "
+"with personal information, where\n"
+"                                                you can change your data. "
+"Save the changes\n"
+"                                                you have entered all the "
+"required data."
+msgstr ""
+
+#: Investions/templates/faq.html:222
+msgid ""
+"What should I do if I can not log into my account because I forgot my "
+"password?"
+msgstr ""
+
+#: Investions/templates/faq.html:229
+msgid ""
+"You can use our password reminder that will be sent to the address\n"
+"                                                provided during\n"
+"                                                registration, containing "
+"detailed instructions and password reset /\n"
+"                                                change form. If you do not "
+"receive the email, please contact us\n"
+"                                                through the support."
+msgstr ""
+
+#: Investions/templates/faq.html:245
+msgid ""
+"I do not have to log in to registered account. What could cause this problem?"
+msgstr ""
+
+#: Investions/templates/faq.html:252
+msgid ""
+"Sometimes these kinds of problems are caused by errors in your web\n"
+"                                                browser. No reason to worry, "
+"you just have to wait a few\n"
+"                                                minutes and then try to log "
+"in again. Also,\n"
+"                                                you need to clear the cache "
+"of your Web browser. If the problem\n"
+"                                                persists, please contact us "
+"through\n"
+"                                                the support."
+msgstr ""
+
+#: Investions/templates/faq.html:269
+msgid "How secure is your website and my account information?"
+msgstr ""
+
+#: Investions/templates/faq.html:277
+msgid ""
+"We have a wide range of security measures to protect your account. Our\n"
+"                                                site is protected from DDoS "
+"attacks, all data\n"
+"                                                is encrypted EV SSL, we use "
+"the same license script, best antivirus\n"
+"                                                software monitors a\n"
+"                                                site's security every second "
+"24/7."
+msgstr ""
+
+#: Investions/templates/faq.html:293
+msgid "Which e-currencies do you accept?"
+msgstr ""
+
+#: Investions/templates/faq.html:300
+msgid ""
+"For your convenience, we accept: Perfect Money,\n"
+"                                Payeer, Bitcoin, Etherium, Qiwi, AdvCash, "
+"Yandex Money, DASH, DOGE, LITECOIN"
+msgstr ""
+
+#: Investions/templates/faq.html:313
+msgid "Can I put a few deposits at the same time?"
+msgstr ""
+
+#: Investions/templates/faq.html:320
+msgid ""
+"Yes, you can have an unlimited number of deposits,\n"
+"                                            but each of them will be handled "
+"separately."
+msgstr ""
+
+#: Investions/templates/faq.html:333
+msgid ""
+"After I make a withdrawal request, when credited to my e-wallet will be done?"
+msgstr ""
+
+#: Investions/templates/faq.html:340
+msgid ""
+"All requests for withdrawal are processed automatically and credited to your "
+"electronic purse is made instantly."
+msgstr ""
+
+#: Investions/templates/history.html:2 Investions/templates/history.html:3
+msgid "History"
+msgstr ""
+
+#: Investions/templates/index.html:2
+msgid "Home"
+msgstr ""
+
+#: Investions/templates/index.html:18
+msgid "Новая жизнь!"
+msgstr "New Life!"
+
+#: Investions/templates/index.html:23
+msgid "Casino Investment"
+msgstr ""
+
+#: Investions/templates/index.html:27
+msgid "Самый простой способ"
+msgstr "the Easiest way"
+
+#: Investions/templates/index.html:31
+msgid "инвестировать деньги"
+msgstr "to Invest money"
+
+#: Investions/templates/index.html:35
+msgid "когда-либо существовавший"
+msgstr "you've ever seen"
+
+#: Investions/templates/index.html:42
+msgid "Легко и Надежно"
+msgstr "Easy & Reliably"
+
+#: Investions/templates/index.html:46
+msgid "Создайте депозит"
+msgstr "Create your deposit"
+
+#: Investions/templates/index.html:50
+msgid "И заберите деньги"
+msgstr "And get your money"
+
+#: Investions/templates/index.html:72
+msgid "Не испытывай удачу"
+msgstr "Don't Try Your Luck"
+
+#: Investions/templates/index.html:72
+msgid "Контроллируй Ее"
+msgstr "Control It"
+
+#: Investions/templates/index.html:85
+msgid "Simple and fast <br> process."
+msgstr ""
+
+#: Investions/templates/index.html:89
+msgid ""
+"Никакой возни, никаких ожиданий. Быстрый и интуитивно\n"
+"                            понятный процесс инвестирования разработан "
+"специально, чтобы вы могли приделять больше\n"
+"                            внимания другим задачам."
+msgstr "No fuss, no expectations. Quick and intuitive \n"
+"clear investment process developed"
+"specially so you can attach more \n"
+"attention to other tasks."
+
+#: Investions/templates/index.html:104
+msgid "Надежная <br> защита"
+msgstr "Reliable <br> protection"
+
+#: Investions/templates/index.html:108
+msgid ""
+" Инновационные современные технологии безопасности\n"
+"                            гарантируют надежность и полную сохранность всех "
+"ваших вложений "
+msgstr "Innovative modern security technology \n"
+"guarantee the reliability and complete safety of all"
+"your investment"
+
+#: Investions/templates/index.html:122
+msgid "Многоуровневый <br> Бизнес"
+msgstr "Multilevel <br> Business"
+
+#: Investions/templates/index.html:126
+msgid ""
+" Casino Investment обеспечивает эффективную\n"
+"                            диверсификацию капитала между проектами и "
+"стартапами, что гарантирует стабильный и высокий\n"
+"                            уровень прибыли"
+msgstr "Casino Investment provides efficient \n"
+"capital diversification between projects and"
+"startups that guarantees stable and high \n"
+"profit level"
+
+#: Investions/templates/index.html:141
+msgid " Профессиональный<br> Маркетинг"
+msgstr "Professional <br> Marketing"
+
+#: Investions/templates/index.html:144
+msgid ""
+"Маркетологи Casino Investment одни из самых лучших\n"
+"                            специалистов в мире и имеют за спиной огромный "
+"опыт работы в даной\n"
+"                            области "
+msgstr "Casino Investment Marketers are one of the best \n"
+"specialists in the world and have a huge behind"
+"Dana Experience \n"
+"areas"
+
+#: Investions/templates/index.html:167
+msgid ""
+"\n"
+"                            <i class=\"h5\">Хотите зарабатывать на казино, "
+"но не хотите рисковать?</i><br> Тогда вы пришли\n"
+"                            в нужное место."
+msgstr "\n"
+"<i class = \" h5 \"> Want to make money at the casino,"
+"but you don't want to risk it? </i> <br> Then you came \n"
+"in the right place."
+
+#: Investions/templates/index.html:170
+msgid "\n"
+"                            <p><i>Casino Investment</i> это уникальная "
+"платформа позволяющая абсолютно любому человеку\n"
+"                                зарабатывать стабильную, высокую прибыль на "
+"казино не испытывая судьбу. </p>\n"
+"                            <p> Инвестируя в <i>Casino Investment</i>, вы "
+"становитесь частью огромной семьи,\n"
+"                                совладельцем сети казино и лотереи.\n"
+"                                Наша команда не просто инвестирует за вас в "
+"нужный проект, но и исключит риски с помощью\n"
+"                                лучших трейдеров на бирже. </p>\n"
+"                            <p> Получайте финансовую независимость и "
+"стабильный безопасный доход вместе с <i>Casino\n"
+"                                Investment</i>. </p>"
+"                        "
+msgstr "\n"
+"<p><i> Casino Investment </i> is unique."
+"a platform that allows absolutely anyone \n"
+"earn a stable, high profit on"
+"the casino is not tempting fate. </p> \n"
+"<p> By investing in <i> Casino Investment </i>, you"
+"become part of a huge family, \n"
+"co-owner of casino and lottery networks. \n"
+"Our team is not just investing for you in"
+"the desired project, but also eliminates the risks using \n"
+"The best traders on the exchange. </p> \n"
+"<p> Get financial independence and"
+"stable safe income with <i> Casino \n"
+"Investment </i>. </P>"
+
+#: Investions/templates/index.html:182
+msgid "Подробнее"
+msgstr "Read more"
+
+#: Investions/templates/index.html:190
+msgid "Начать зарабатывать"
+msgstr "Start earning"
+
+#: Investions/templates/index.html:210
+msgid "Готовы к изменениям в лучшую сторону?"
+msgstr "Ready to change for the better?"
+
+#: Investions/templates/index.html:218
+msgid "Все максимально просто"
+msgstr "It's as simple as possible"
+
+#: Investions/templates/index.html:219
+msgid "Чтобы начать получать прибыль, нужно всего 4 шага:"
+msgstr "To start making profits, you need only 4 steps:"
+
+#: Investions/templates/index.html:232
+msgid "Регистрация"
+msgstr "Registration"
+
+#: Investions/templates/index.html:233
+msgid "Создайте новый аккаунт за пару кликов"
+msgstr "Create a new account with a couple of clicks"
+
+#: Investions/templates/index.html:247
+msgid "Пополнение счета"
+msgstr "Deposit money"
+
+#: Investions/templates/index.html:248
+msgid "Внесите деньги на личный кошелек"
+msgstr "Deposit money into your personal wallet"
+
+#: Investions/templates/index.html:262
+msgid "Создание контракта"
+msgstr "Create the contract"
+
+#: Investions/templates/index.html:263
+msgid "Выберите тариф, укажите сумму и подтвердите выбор"
+msgstr "Select a rate, specify the amount and confirm"
+
+#: Investions/templates/index.html:277
+msgid "Получение прибыли"
+msgstr "Receiving a profit"
+
+#: Investions/templates/index.html:278
+msgid "По истечению строка заберите деньги"
+msgstr "At the expiration of the line take your money"
+
+#: Investions/templates/index.html:288
+msgid "Начать Зарабатывать"
+msgstr "Start earning"
+
+#: Investions/templates/index.html:304
+msgid "Тарифы"
+msgstr "Plans"
+
+#: Investions/templates/index.html:318
+msgid " в день"
+msgstr "day"
+
+#: Investions/templates/index.html:322
+msgid "Дней"
+msgstr "Days"
+
+#: Investions/templates/index.html:324
+msgid "Месячная ставка"
+msgstr "Annual Rate"
+
+#: Investions/templates/index.html:332
+msgid "Ввод:"
+msgstr "Payin:"
+
+#: Investions/templates/index.html:335
+msgid "Выплата:"
+msgstr "Payout:"
+
+#: Investions/templates/index.html:360
+msgid "Начать Сейчас"
+msgstr "Start Now"
+
+#: Investions/templates/index.html:385
+msgid "Готовы изменить свою жизнь?"
+msgstr "Ready to change your life?"
+
+#: Investions/templates/index.html:393
+msgid "Присоединиться"
+msgstr "Join Us"
+
+#: Investions/templates/new_contract.html:2
+#: Investions/templates/new_contract.html:3
+#: Investions/templates/new_contract.html:10
+#: Investions/templates/plugins/dashnav.html:9
+#: Investions/templates/plugins/dashnav.html:10
+msgid "New Deposit"
+msgstr ""
+
+#: Investions/templates/new_contract.html:48
+msgid "Create Contract"
+msgstr ""
+
+#: Investions/templates/overview.html:2 Investions/templates/overview.html:9
+#: Investions/templates/plugins/dashnav.html:15
+#: Investions/templates/plugins/dashnav.html:16
+msgid "Dashboard"
+msgstr ""
+
+#: Investions/templates/overview.html:22
+msgid "Your current balance: "
+msgstr ""
+
+#: Investions/templates/overview.html:38
+msgid "out"
+msgstr ""
+
+#: Investions/templates/overview.html:44
+msgid "Days"
+msgstr ""
+
+#: Investions/templates/overview.html:45
+msgid "Annual Rate"
+msgstr ""
+
+#: Investions/templates/overview.html:46
+msgid "Contract"
+msgstr ""
+
+#: Investions/templates/overview.html:52
+msgid "d"
+msgstr ""
+
+#: Investions/templates/overview.html:55
+msgid "h"
+msgstr ""
+
+#: Investions/templates/overview.html:58
+msgid "m"
+msgstr ""
+
+#: Investions/templates/overview.html:61
+msgid "s"
+msgstr ""
+
+#: Investions/templates/overview.html:96
+msgid "Header"
+msgstr ""
+
+#: Investions/templates/overview.html:115
+msgid "Balance History"
+msgstr ""
+
+#: Investions/templates/overview.html:122
+msgid "From"
+msgstr ""
+
+#: Investions/templates/overview.html:123
+msgid "To"
+msgstr ""
+
+#: Investions/templates/overview.html:125
+msgid "Rate"
+msgstr ""
+
+#: Investions/templates/overview.html:126
+msgid "Payout"
+msgstr ""
+
+#: Investions/templates/overview.html:127
+msgid "ID"
+msgstr ""
+
+#: Investions/templates/plugins/dashnav.html:6
+#: Investions/templates/plugins/dashnav.html:7
+msgid "Cash Out"
+msgstr ""
+
+#: Investions/templates/plugins/dashnav.html:12
+#: Investions/templates/plugins/dashnav.html:13
+msgid "Referals"
+msgstr ""
+
+#: Investions/templates/plugins/language_chooser.html:5
+#: untitled/123/templates/plugins/language_chooser.html:5
+msgid "Change to language:"
+msgstr ""
+
+#: Investions/templates/referal.html:2 Investions/templates/referal.html:3
+#: Investions/templates/referal.html:10 Investions/templates/referal.html:22
+msgid "Referal"
+msgstr ""
+
+#: Investions/templates/referal.html:14
+msgid "Your referal link:"
+msgstr ""
+
+#: Investions/templates/referal.html:23
+msgid "Date"
+msgstr ""
+
+#: Investions/templates/referal.html:24
+msgid "Amount"
+msgstr ""
+
+#: Investions/templates/rules.html:9
+msgid "TERMS AND AGREEMENTS"
+msgstr ""
+
+#: Investions/templates/rules.html:19
+msgid ""
+"\n"
+"                            <p class=\"card-text text-white\">Using Casino "
+"Investment program you agree to the terms of use, privacy policies, as well "
+"as the principles and rules of use, even if you have not read them. If you "
+"do not agree with any of these contracts, you should not use our web-site.</"
+"p>\n"
+"                            <p class=\"card-text text-white\">Casino "
+"Investment reserves the right to amend and / or modify any of the rules and "
+"conditions of use. Casino Investment reserves the right to change this "
+"agreement from time to time, by notice in a few days all users of a web-"
+"site. Your subsequent use of the Site constitutes your acceptance of such "
+"changes and / or additions. It is recommended to read the terms of use and "
+"privacy policy as often as possible.</p>\n"
+"                            <hr>\n"
+"                            <h6 class=\"font-weight-bold yellow-text text-"
+"left well\">COPYRIGHT</h6>\n"
+"                            <p class=\"card-text text-white\">Design, text, "
+"graphics, logos, button icons, images, audio and video content, their "
+"selection and arrangement, and all software on the website are protected by "
+"copyright (c) 2018 Casino Investment .</p>\n"
+"                            <p class=\"card-text text-white\">Compilation "
+"(collection, arrangement, and assembly) of all content on the site is the "
+"exclusive property of Casino Investment (the C) and is protected by "
+"international copyright laws.</p>\n"
+"                            <hr>\n"
+"                            <h6 class=\"font-weight-bold yellow-text text-"
+"left well\">PROTECTION AGAINST FRAUD</h6>\n"
+"                            <p class=\"card-text text-white\">As part of our "
+"acceptance of payment processing procedures, the company's specialists "
+"review all transactions for fraud or other unauthorized or illegal "
+"activities. The Company reserves the right to refuse to process a payment "
+"because of suspicions of fraud, unauthorized or illegal activities. Such "
+"measures have been taken in order to protect our customers as well as "
+"companies from fraud or other illegal activities.</p>\n"
+"                            <p class=\"card-text text-white\">The company "
+"Casino Investment is not responsible for any loss due to sharing passwords "
+"or identity theft. It is strongly recommended to ensure maximum security of "
+"your personal data needed for authentication and access to the personal "
+"account and settings. Do not give your personal information to third parties."
+"</p>\n"
+"                            <hr>\n"
+"                            <h6 class=\"font-weight-bold yellow-text text-"
+"left well\">GENERAL PROVISIONS</h6>\n"
+"                            <p class=\"card-text text-white\">By agreeing to "
+"the Terms of Use, you automatically confirm that you are of legal age in the "
+"country of which you are using this site and do not violate any laws of your "
+"state. All materials and information provided by the Casino Investment "
+"intended to be used only for personal, educational or informational purposes "
+"only.</p>\n"
+"                            <p class=\"card-text text-white\">You assume the "
+"obligation to pay tax on the profits, levied according to the legislation of "
+"the United Kingdom. Profits earned in the territory of that State, is liable "
+"to tax, irrespective of the place of residence of the formal, the actual "
+"residence of the person or the country in which the company is registered.</"
+"p>\n"
+"                            <p class=\"card-text text-white\">Any financial "
+"transactions, designed according to the contract are definitive and "
+"irreversible. In order to prevent fraud and cheating, it is expressly "
+"prohibited the creation of joint payment system for different users. If such "
+"abuses are discovered, the company Casino Investment reserves the right to "
+"terminate all affiliate of charge and limited functionality for such "
+"accounts and accounts.</p>\n"
+"                            <hr>\n"
+"                            <h6 class=\"font-weight-bold amber-text\">Any "
+"breach of this agreement as a whole or individual items can result in "
+"permanent account suspension.</h6>\n"
+"                        "
+msgstr ""
+
+#: Investions/templates/snippets/ajax_registration.html:19
+#: untitled/123/templates/snippets/ajax_registration.html:19
+msgid "Login"
+msgstr ""
+
+#: Investions/templates/snippets/ajax_registration.html:23
+#: untitled/123/templates/snippets/ajax_registration.html:23
+msgid "Register"
+msgstr ""
+
+#: Investions/views/static_pages.py:90
+msgid "Not enouth money"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/contrib/messages/apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/contrib/sitemaps/apps.py:7
+msgid "Site Maps"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/paginator.py:45
+msgid "That page number is not an integer"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/paginator.py:47
+msgid "That page number is less than 1"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/paginator.py:52
+msgid "That page contains no results"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:31
+msgid "Enter a valid value."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:102
+#: env/lib/python3.6/site-packages/django/forms/fields.py:658
+msgid "Enter a valid URL."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:154
+msgid "Enter a valid integer."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:165
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: env/lib/python3.6/site-packages/django/core/validators.py:239
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:246
+msgid ""
+"Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:255
+#: env/lib/python3.6/site-packages/django/core/validators.py:275
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:260
+#: env/lib/python3.6/site-packages/django/core/validators.py:276
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:270
+#: env/lib/python3.6/site-packages/django/core/validators.py:274
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:304
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:310
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:342
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:351
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:361
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:376
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:395
+#: env/lib/python3.6/site-packages/django/forms/fields.py:290
+#: env/lib/python3.6/site-packages/django/forms/fields.py:325
+msgid "Enter a number."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:397
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:402
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:407
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:469
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/core/validators.py:521
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/base.py:1162
+#: env/lib/python3.6/site-packages/django/forms/models.py:756
+msgid "and"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/base.py:1164
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:104
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:105
+msgid "This field cannot be null."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:106
+msgid "This field cannot be blank."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:107
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:111
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:128
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:899
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1766
+msgid "Integer"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:903
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1764
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:978
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1832
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:990
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:991
+#, python-format
+msgid "'%(value)s' value must be either True, False, or None."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:993
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1034
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1098
+msgid "Comma-separated integers"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1147
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1149
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1292
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1152
+msgid "Date (without time)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1290
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1294
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1298
+msgid "Date (with time)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1446
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1448
+msgid "Decimal number"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1587
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1590
+msgid "Duration"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1640
+msgid "Email address"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1663
+msgid "File path"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1729
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1731
+msgid "Floating point number"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1848
+msgid "IPv4 address"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1879
+msgid "IP address"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1959
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1960
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1962
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1997
+msgid "Positive integer"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2010
+msgid "Positive small integer"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2024
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2056
+msgid "Small integer"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2063
+msgid "Text"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2091
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2093
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2096
+msgid "Time"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2222
+msgid "URL"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2244
+msgid "Raw binary data"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2294
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/__init__.py:2296
+msgid "Universally unique identifier"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/files.py:221
+msgid "File"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/files.py:360
+msgid "Image"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/related.py:778
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/related.py:780
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/related.py:1007
+msgid "One-to-one relationship"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/related.py:1057
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/related.py:1058
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/db/models/fields/related.py:1100
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: env/lib/python3.6/site-packages/django/forms/boundfield.py:146
+msgid ":?.!"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:53
+msgid "This field is required."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:245
+msgid "Enter a whole number."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:396
+#: env/lib/python3.6/site-packages/django/forms/fields.py:1126
+msgid "Enter a valid date."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:420
+#: env/lib/python3.6/site-packages/django/forms/fields.py:1127
+msgid "Enter a valid time."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:442
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:471
+msgid "Enter a valid duration."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:472
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:532
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:533
+msgid "No file was submitted."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:534
+msgid "The submitted file is empty."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:536
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:539
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:600
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:762
+#: env/lib/python3.6/site-packages/django/forms/fields.py:852
+#: env/lib/python3.6/site-packages/django/forms/models.py:1270
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:853
+#: env/lib/python3.6/site-packages/django/forms/fields.py:968
+#: env/lib/python3.6/site-packages/django/forms/models.py:1269
+msgid "Enter a list of values."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:969
+msgid "Enter a complete value."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/fields.py:1185
+msgid "Enter a valid UUID."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: env/lib/python3.6/site-packages/django/forms/forms.py:86
+msgid ":"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/forms.py:212
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/formsets.py:91
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/formsets.py:338
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/forms/formsets.py:345
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/forms/formsets.py:371
+#: env/lib/python3.6/site-packages/django/forms/formsets.py:373
+msgid "Order"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/formsets.py:375
+msgid "Delete"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:751
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:755
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:761
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:770
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:1091
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:1158
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/models.py:1272
+#, python-format
+msgid "\"%(pk)s\" is not a valid value."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/utils.py:162
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/widgets.py:395
+msgid "Clear"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/widgets.py:396
+msgid "Currently"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/widgets.py:397
+msgid "Change"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/widgets.py:711
+msgid "Unknown"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/widgets.py:712
+msgid "Yes"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/forms/widgets.py:713
+msgid "No"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:788
+msgid "yes,no,maybe"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:817
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:834
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:836
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:838
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:840
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:842
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/template/defaultfilters.py:844
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dateformat.py:62
+msgid "p.m."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dateformat.py:63
+msgid "a.m."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dateformat.py:68
+msgid "PM"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dateformat.py:69
+msgid "AM"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dateformat.py:150
+msgid "midnight"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dateformat.py:152
+msgid "noon"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:14
+msgid "January"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:14
+msgid "February"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:14
+msgid "March"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:14
+msgid "April"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:14
+msgid "May"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:14
+msgid "June"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:15
+msgid "July"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:15
+msgid "August"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:15
+msgid "September"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:15
+msgid "October"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:15
+msgid "November"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:16
+msgid "December"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:19
+msgid "jan"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:19
+msgid "feb"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:19
+msgid "mar"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:19
+msgid "apr"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:19
+msgid "may"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:19
+msgid "jun"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:20
+msgid "jul"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:20
+msgid "aug"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:20
+msgid "sep"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:20
+msgid "oct"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:20
+msgid "nov"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:20
+msgid "dec"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/text.py:67
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: env/lib/python3.6/site-packages/django/utils/text.py:252
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:83
+msgid ", "
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.6/site-packages/django/utils/timesince.py:72
+msgid "0 minutes"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:120
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the 'Referrer-Policy: no-referrer' header, please remove them. The "
+"CSRF protection requires the 'Referer' header to do strict referer checking. "
+"If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" ...> for links to third-party sites."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:61
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:111
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:338
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:589
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/dates.py:623
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/list.py:67
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/generic/list.py:154
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/static.py:42
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:6
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:345
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:367
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:368
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:383
+msgid "Django Documentation"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:384
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:395
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:396
+msgid "Get started with Django"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:407
+msgid "Django Community"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/django/views/templates/default_urlconf.html:408
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: env/lib/python3.6/site-packages/pinax/referrals/apps.py:8
+msgid "Pinax Referrals"
+msgstr ""
+
+#: untitled/settings.py:94
+msgid "English"
+msgstr ""
+
+#: untitled/settings.py:95
+msgid "Русский"
+msgstr ""

@@ -1,0 +1,61 @@
+{% extends 'base_cabinet.html' %}{% load i18n pinax_referrals_tags %}
+{% block title %}{% trans 'Referal' %}{% endblock %}
+{% block head_title %}{% trans 'Referal' %}{% endblock %}
+{% block content %}
+    <div class="card aqua-gradient pt-2 pb-4 pl-4 pr-3">
+        <div class="card card-form blue-grey darken-4 mt-1">
+            <div class="card-body rounded card-body-cascade p-0 pl-2 pb-4">
+                <div class="rounded blue-gradient pt-4 pb-1 my-4 ml-n5 mr-1">
+                    <h2 class="font-weight-bold text-left text-uppercase text-white ml-5 pl-2">{% trans 'Referal' %}</h2>
+                </div>
+                <div class="container">
+                    <div class="text-white justify-content-center">
+                        <hr>
+                        <p>{% trans 'Your referal link:' %}</p>
+                        <button class="btn btn-success btn-block text-lowercase" id="reflink">{{ reff.url }}</button>
+                    </div>
+                    <div class="table-responsive text-nowrap">
+                        <table class="table table-striped text-white" id="dtable">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">{% trans 'Referal' %}</th>
+                                <th scope="col">{% trans 'Date' %}</th>
+                                <th scope="col">{% trans 'Amount' %}</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>{# TODO referrals transactions #}
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+{% block exjs %}
+    <script>
+        $(document).ready(function () {
+            $('button').on('click', function () {//TODO toLowercase()
+                var copyText = this.innerText;
+                var textarea = document.createElement('textarea');
+                textarea.id = 'temp_element';
+                textarea.style.height = 0;
+                document.body.appendChild(textarea);
+                textarea.value = copyText;
+                var selector = document.querySelector('#temp_element');
+                selector.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                alert("{% trans "The link was copied successfull" %}");
+            });
+        });
+    </script>
+{% endblock %}
+

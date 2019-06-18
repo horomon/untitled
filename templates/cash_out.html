@@ -1,0 +1,49 @@
+{% extends 'base_cabinet.html' %} {% load static i18n %}
+{% block title %}{% trans 'Withdrawal' %}{% endblock%}
+{% block head_title %}{% trans 'Withdrawal' %}{% endblock %}
+{% block content %}
+    <div class="card aqua-gradient pt-2 pb-4 pl-4 pr-3">
+
+        <div class="card card-form blue-grey darken-4 mt-1">
+            <div class="card-body rounded card-body-cascade p-0 pl-2">
+                <div class="rounded blue-gradient pt-4 pb-1 mt-4 ml-n5 mr-1">
+                    <h2 class="font-weight-bold text-left text-uppercase text-white ml-5 pl-2">{% trans "funds out" %}</h2>
+                </div>
+                <form class="pb-3 px-5" name="BalanceOut" id="BalanceOutForm" method="post">
+                    {% csrf_token %}
+                    <div class="md-form">
+                        <i class="fas fa-coins prefix text-white"></i>
+                        {{ form.amount }}
+                        <label class="text-white" for="BalanceOutField">USD</label>
+                    </div>
+                    <div class="md-form">
+                        <i class="far fa-credit-card prefix text-white"></i>
+                        {{ form.card }}{# TODO regexp for card and wallet #}
+                        <label class="text-white" for="BalanceOutCardField">{% trans "Your Card Number or BTC wallet address" %}</label>
+                    </div>
+{#                    <div class="row justify-content-center">#}
+{#                        <div class="btn-group" data-toggle="buttons">#}
+{##}
+{#                            <label class="btn btn-light-blue form-check-label py-1 active">#}
+{#                                <input class="form-check-input" type="radio" name="BTCradioButton" id="option1"#}
+{#                                       autocomplete="off" checked>#}
+{#                                <span class="badge badge-pill orange"> <i class="fab fa-btc fa-2x mx-1"#}
+{#                                                                          aria-hidden="true"></i> </span>#}
+{#                            </label>#}
+{##}
+{#                            <label class="btn btn-light-blue form-check-label py-1">#}
+{#                                <input class="form-check-input" type="radio" name="VISAradioButton" id="option2"#}
+{#                                       autocomplete="off"><i class="fab fa-cc-visa fa-3x my-0"></i>#}
+{#                            </label>#}
+{##}
+{#                        </div>#}
+{#                    </div>#}
+                </form>
+            </div>
+            <div class="rounded-bottom amber text-center ">
+                <button class="btn btn-outline-red-accent btn-rounded btn-block amber z-depth-0 mb-n1" type="submit"
+                        form="BalanceOutForm"><strong class="h5">{% trans "Make Payment" %}</strong></button>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

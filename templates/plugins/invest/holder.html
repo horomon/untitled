@@ -1,0 +1,22 @@
+{% load cms_tags menu_tags sekizai_tags staticfiles %}
+
+<section class="section {{instance.colors}}">
+    <div class="container">
+        <header class="section-header underline text-center">
+            <h1 class="headline super hairline">{{instance.header}}</h1>
+        </header>
+        <div class="row">
+            {% for plugin in instance.child_plugin_instances %}
+                {% render_plugin plugin %}
+            {% endfor %}
+      </div>
+    </div>
+</section>
+            {% addtoblock "css" %}
+            <!--link rel="stylesheet" href="{% static 'vendor/rs-plugin/css/settings-ie8.css' %}"/-->
+            {% endaddtoblock %}
+
+            {% addtoblock "js" %}
+            <!--script src="{% static 'vendor/rs-plugin/js/jquery.themepunch.tools.min.js' %}"></script-->
+            {% endaddtoblock %}
+

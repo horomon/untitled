@@ -1,0 +1,27 @@
+{% load sekizai_tags staticfiles %}
+
+<div class="col-sm-4 text-default">
+    <div class="pricing-col">
+            <h2  class="pricing-head">{{ instance.plan.plan_name}}</h2>
+        <div class="pricing-body">
+            <div class="progress m-b-10">
+                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar  progress-bar-{{ instance.plan.progress_color }} progress-bar-striped active" role="progressbar" style="width: 90%">
+                    <h4 class="">%90</h4>
+                </div>
+            </div>
+            <table class="table">
+                <tr><td>Days</td><td>{{instance.plan.period}}</td></tr>
+                <tr><td>Invested</td><td>{{ instance.invested}} USD</td></tr>
+                <tr><td>Monthly Rate</td><td>%{{ instance.plan.rate}}</td></tr>
+                <tr><td>Final Payout</td><td>{{ instance.final_payout}} USD</td></tr>
+            </table>
+            <div class="pricing-price p-b-0">
+                <div class="overlay">
+                    <a class="btn btn-lg btn-primary {% if instance.is_finished %}active{% else %}disabled{% endif %}" href="#">
+                        Get it
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

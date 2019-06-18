@@ -1,0 +1,29 @@
+{% load sekizai_tags staticfiles %}
+
+<div class="row justify-content-around">
+    <div class="col-sm-8 col-md-6 col-lg-4 text-default">
+        <div class="pricing-col">
+            <h2 class="pricing-head">Standard</h2>
+            <div class="pricing-body">
+                <div class="pricing-price">
+                    <div class="overlay">
+                        <h4>
+                        <small>%</small>
+                        {{instance.rate}} /
+                        <small>{{instance.period}}</small>
+                        </h4>
+                    </div>
+                </div>
+                <ul class="pricing-list">
+                    <li>{{instance.period}} Days</li>
+                    <li>{{instance.min_lim}}-{{instance.max_lim}} USD</li>
+                    <li>{{instance.rate}}% Monthly Rate</li>
+                    <!--li>x1.14 Final Payout</li-->
+                </ul>
+                <div class="overlay">
+                    <a href="" class="btn btn-lg btn-info btn-rounded">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

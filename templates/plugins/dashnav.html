@@ -1,0 +1,18 @@
+{% load i18n %}
+<nav class="nav nav-pills flex-column flex-sm-row justify-content-center mx-0">
+    <a class="btn blue-gradient" href="{% url 'cash_in' %}" title="{% trans 'Cash In' %}">
+        <i class="fas fa-donate fa-2x"></i> <strong class="d-inline d-sm-none d-lg-inline">{% trans 'Cash In' %}</strong>
+    </a>
+    <a class="btn blue-gradient" href="{% url 'cash_out' %}" title="{% trans 'Cash Out' %}">
+        <i class="fas fa-hand-holding-usd fa-2x"></i> <strong class="d-inline d-sm-none d-lg-inline">{% trans 'Cash Out' %}</strong>
+    </a>
+    <a class="btn btn-danger" href="{% url 'new_contract' %}" title="{% trans 'New Deposit' %}">
+        <i class="fas fa-money-check-alt fa-2x d-none d-sm-block d-lg-none"></i> <strong class="d-inline d-sm-none d-lg-inline">{% trans 'New Deposit' %}</strong>
+    </a>
+    <a class="btn blue-gradient" href="{% url 'referals' %}" title="{% trans 'Referals' %}">
+        <strong class="d-inline d-sm-none d-lg-inline">{% trans 'Referals' %}</strong> <i class="fas fa-user-friends fa-2x"></i>
+    </a>
+    <a class="btn blue-gradient" href="{% url 'overview' %}" title="{% trans 'Dashboard' %}">
+        <strong class="d-inline d-sm-none d-lg-inline">{% trans 'Dashboard' %}</strong> <i class="fas fa-poll fa-2x"></i>
+    </a>
+</nav>

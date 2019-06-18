@@ -1,0 +1,353 @@
+{% extends "base.html" %} {% load i18n static %}
+{% block title %}{% trans 'FAQ' %}{% endblock %}
+{% block wrapper %}
+    <section class="section swatch-cold-yellow section-nopadding" style="height: 220px;">
+        <div data-jarallax data-speed="0.2" class="jarallax mh-100">
+            <img src="{{ STATIC_URL }}images/design/section-bg/c2.jpg" class="jarallax-img ">
+            <div class="mask flex-center rgba-black-strong">
+                <header class="section-header text-center underline pt-5">
+                    <p class="headline super hairline text-center mt-5">{% trans 'FAQ' %}</p>
+                </header>
+            </div>
+        </div>
+    </section>
+    <section class="section section-short swatch-cold-yellow">
+        <div class="container">
+            {% block content %}
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10 col-xl-6 py-5">
+                            <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"
+                                 aria-multiselectable="true">
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading1">
+                                        <a data-toggle="collapse" data-parent="#accordionEx7" href="#collapse1"
+                                           aria-expanded="true"
+                                           aria-controls="collapse1">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans "What is Casino Investment?" %}
+                                                <i class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}Casino Investment is an online platform created by Casino Investment
+                                                Organization. Adjustable United
+                                                Kingdom Company House Authority located at Kensington Gardens, London W8
+                                                4PX.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading2">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse2"
+                                           aria-expanded="false" aria-controls="collapse2">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'Who manages an investment portfolio?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}All funds invested in Casino Investment managed by a team of professional
+                                                investment
+                                                managers collected specifically for this purpose by the Directorate
+                                                Casino Investment
+                                                Company.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading3">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse3"
+                                           aria-expanded="false" aria-controls="collapse3">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'How to earn Casino Investment?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+
+                                    <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}The main activity of the company is considered to be investment in the
+                                                gambling
+                                                industry, investing in startups, casinos and lotteries. But we must not
+                                                forget about the additional trading
+                                                card Casino Investment.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading4">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse4"
+                                           aria-expanded="false" aria-controls="collapse4">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'What do I need to do to become a customer Casino Investment?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}To become an investor meters need to pass a simple registration.
+                                                Registration will not take you long after you register, you will get the
+                                                right to invest
+                                                in the company Casino Investment. Please
+                                                note that by agreeing to the rules you agree that you are over 18 and
+                                                you do not violate
+                                                your country's laws.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading5">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse5"
+                                           aria-expanded="false" aria-controls="collapse5">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'How many accounts can I open in your program?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% trans 'Casino Investment rules allow the use of not more than one account.' %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading6">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse6"
+                                           aria-expanded="false" aria-controls="collapse6">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'How can I access my account?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}If you are a registered user of Casino Investment, please click on the
+                                                "Login" button at
+                                                the top of the site, enter your username and password in the appropriate
+                                                fields and
+                                                click "Login" button. You will be
+                                                redirected to your account automatically as soon as you make the above
+                                                listed. If you have not registered yet,
+                                                please register.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading7">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse7"
+                                           aria-expanded="false" aria-controls="collapse7">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'What to do immediately after the access to the personal account?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}After gaining access to your personal account, we recommend that you
+                                                familiarize
+                                                yourself with the functionality, you examine the proposed investment
+                                                plan. Enter the data of your electronic purses, so that
+                                                the program could send you to profit. Carefully
+                                                include your correct their data to send funds to your account.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading8">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse8"
+                                           aria-expanded="false" aria-controls="collapse8">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'How can I change my personal information in my account?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}Sign into your account and click "Account
+                                                settings" To go to a page with personal information, where
+                                                you can change your data. Save the changes
+                                                you have entered all the required data.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading9">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse9"
+                                           aria-expanded="false" aria-controls="collapse9">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'What should I do if I can not log into my account because I forgot my password?' %} <i class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}You can use our password reminder that will be sent to the address
+                                                provided during
+                                                registration, containing detailed instructions and password reset /
+                                                change form. If you do not receive the email, please contact us
+                                                through the support.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading10">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse10"
+                                           aria-expanded="false" aria-controls="collapse10">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'I do not have to log in to registered account. What could cause this problem?' %} <i class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}Sometimes these kinds of problems are caused by errors in your web
+                                                browser. No reason to worry, you just have to wait a few
+                                                minutes and then try to log in again. Also,
+                                                you need to clear the cache of your Web browser. If the problem
+                                                persists, please contact us through
+                                                the support.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading11">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse11"
+                                           aria-expanded="false" aria-controls="collapse11">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'How secure is your website and my account information?' %} <i
+                                                    class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}We have a wide range of security measures to protect your account. Our
+                                                site is protected from DDoS attacks, all data
+                                                is encrypted EV SSL, we use the same license script, best antivirus
+                                                software monitors a
+                                                site's security every second 24/7.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading12">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse12"
+                                           aria-expanded="false" aria-controls="collapse12">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'Which e-currencies do you accept?' %} <i class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}For your convenience, we accept: Perfect Money,
+                                Payeer, Bitcoin, Etherium, Qiwi, AdvCash, Yandex Money, DASH, DOGE, LITECOIN{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading13">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse13"
+                                           aria-expanded="false" aria-controls="collapse13">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'Can I put a few deposits at the same time?' %} <i class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% blocktrans %}Yes, you can have an unlimited number of deposits,
+                                            but each of them will be handled separately.{% endblocktrans %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab"
+                                         id="heading14">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                           href="#collapse14"
+                                           aria-expanded="false" aria-controls="collapse14">
+                                            <h5 class="mb-0 white-text text-uppercase font-thin">
+                                                {% trans 'After I make a withdrawal request, when credited to my e-wallet will be done?' %} <i class="fas fa-angle-down rotate-icon"></i>
+                                            </h5>
+                                        </a>
+                                    </div>
+                                    <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14"
+                                         data-parent="#accordionEx7">
+                                        <div class="card-body mb-1 rgba-grey-light white-text">
+                                            <p>{% trans 'All requests for withdrawal are processed automatically and credited to your electronic purse is made instantly.' %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+            {% endblock %}
+        </div>
+    </section>
+{% endblock %}

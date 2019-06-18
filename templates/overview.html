@@ -1,0 +1,199 @@
+{% extends 'base.html' %}{% load staticfiles sekizai_tags i18n l10n %}
+{% block title %}{% trans 'Dashboard' %}{% endblock %}
+{% block content %}
+    <section class="section swatch-cold-yellow section-nopadding" style="height: 220px;">
+        <div data-jarallax data-speed="0.2" class="jarallax mh-100">
+            <img src="{{ STATIC_URL }}images/design/section-bg/c2.jpg" class="jarallax-img ">
+            <div class="mask flex-center rgba-black-strong">
+                <header class="section-header text-center underline pt-5">
+                    <p class="headline super hairline text-center mt-5">{% trans 'Dashboard' %}</p>
+                </header>
+            </div>
+        </div>
+    </section>
+    <section class="section section-short swatch-cold-yellow has-top has-bottom pb-1">
+        <div class="decor-top">
+            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M 0,0 16.915254,92.033898 28.45016,33.059279 48.509807,62.326954 100.8507,0.97401686 100.81356,99.728814 0,100"
+                      stroke-width="0"></path>
+            </svg>
+        </div>
+        <div class="container ">
+            {% include "plugins/dashnav.html" %}
+            <div class="row justify-content-around">
+                {% if not actives.exists %}
+                    <p class="my-3">{% trans "You have no opened contracts." %}
+                        <a href="{% url 'new_contract' %}">{% trans "Create Now." %}</a>
+                    </p>
+                {% endif %}
+                {% for elem in actives %}
+                    <div class="pricing-col mx-2 my-5">
+                        <div class="mx-n4 float-left">
+                            <span class="min-chart my-n5 rounded-circle black" id="chart-sales"
+                                  data-percent="{{ elem.percent_stat }}">
+                                <span class="percent"></span></span>
+                        </div>
+                        <div class="pricing-head py-0 mb-n5">
+                            <div class="text-right">
+                                <form class="" action="{% url 'dismiss' %}" method="POST" id="{{ elem.id }}">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="contract" value="{{ elem.id }}">
+                                    <button class="btn-floating btn-sm btn-danger" type="submit"
+                                            title="{% trans "Cancel the contract" %}" style="z-index: 2">
+                                        <i class="fas fa-times text-white"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="pricing-body pb-0">
+                            <div class="text-black ">
+                                <div class="pricing-price">
+                                    <div class="overlay">
+                                        <h4>
+                                            <small>$</small>
+                                            {{ elem.payouts }}
+                                            <small>{% trans 'out' %}</small>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>{% trans 'Invested' %} <strong>{{ elem.invested }}<sup>$</sup></strong></li>
+                                    <li>{% trans 'Period' %} <strong>{{ elem.plan.period }}
+                                        <sup>{% trans 'Days' %}</sup></strong></li>
+                                    <li>{% trans 'Annual Rate' %} <strong> <sup>%</sup>{{ elem.plan.rate }}</strong>
+                                    </li>
+                                    <li>{% trans 'Contract' %} <strong> <sup>#</sup>{{ elem.id }}</strong></li>
+                                    <li>
+                                        <div class="pricing-price overlay">
+                                            {% if not elem.is_finished %}
+                                                <p id="demo{{ elem.id }}"></p>
+                                                <script>
+                                                    var countDownDate = new Date("{{ elem.end_date_js}}").getTime();
+                                                    var x = setInterval(function () {
+                                                        var now = new Date().getTime();
+                                                        var distance = countDownDate - now;
+                                                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                                        document.getElementById("demo{{ elem.id }}").innerHTML = days + "{% trans 'd' %} " + hours + "{% trans 'h' %} "
+                                                            + minutes + "{% trans 'm' %} " + seconds + "{% trans 's' %} ";
+                                                    }, 1000);
+                                                </script>
+                                            {% else %}
+                                                <form action="{% url 'get_money' %}" id="{{ elem.id }}">
+                                                    {% csrf_token %}
+                                                    <input type="hidden" name="contract" value="{{ elem.id }}">
+                                                    <button class="btn btn-block btn-rounded peach-gradient"
+                                                            type="submit">{% trans "Get Money" %}</button>
+                                                </form>
+                                            {% endif %}
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="decor-bottom">
+            <svg class="decor" height="120px" preserveaspectratio="none" style="height: 120px !important;" version="1.1"
+                 viewbox="0 0 100 100" width="240px" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 0 L50 50 L75 0" stroke-width="0"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="section section-short swatch-white-yellow my-n5 collapse" id="SectionHead">
+        <div class="view jarallax my-n5" style="height: 1vh;">
+            <img src="{{ STATIC_URL }}images/design/section-bg/p3.jpg" class="jarallax-img ">
+            <div class="mask flex-center rgba-white-strong">
+                <div class="container">
+                    <div class="card aqua-gradient pt-2 pb-4 pl-4 pr-3">
+
+                        <div class="card card-form blue-grey darken-4 mt-1">
+                            <div class="card-body rounded card-body-cascade p-0 pl-2">
+                                <div class="rounded blue-gradient pt-4 pb-1 mt-4 ml-n5 mr-1">
+                                    <h2 class="font-weight-bold text-left text-uppercase text-white ml-5 pl-2">{% trans 'Header' %}</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-short swatch-white-yellow my-n5" id="SectionUSDin">
+        <div class="view jarallax my-n5" data-jarallax data-speed="0.2" style="height: 1vh;">
+            <img src="{% static 'images/design/section-bg/p3.jpg' %}" class="jarallax-img " alt="">
+            <div class="mask flex-center rgba-white-strong">
+                <div class="container">
+                    <div class="card aqua-gradient pt-2 pb-4 pl-4 pr-3">
+
+                        <div class="card card-form blue-grey darken-4 mt-1">
+                            <div class="card-body rounded card-body-cascade p-0 pl-2 pb-4">
+                                <div class="rounded blue-gradient pt-4 pb-1 my-4 ml-n5 mr-1">
+                                    <h2 class="font-weight-bold text-left text-uppercase text-white ml-5 pl-2">{% trans 'Balance History' %}</h2>
+                                </div>
+                                <div class="container">
+                                    <div class="table-responsive text-nowrap">
+                                        <table class="table table-striped text-white" id="dtable">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">{% trans 'From' %}</th>
+                                                <th scope="col">{% trans 'To' %}</th>
+                                                <th scope="col">{% trans 'Invested' %}</th>
+                                                <th scope="col">{% trans 'Rate' %}</th>
+                                                <th scope="col">{% trans 'Payout' %}</th>
+                                                <th scope="col">{% trans 'ID' %}</th>
+                                                <th scope="col">{% trans 'Status' %}</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for act in actives %}
+                                                <tr>
+                                                    <td>{{ act.start_date }}</td>
+                                                    <td>{{ act.end_date }}</td>
+                                                    <td>{{ act.invested }}</td>
+                                                    <td>{{ act.plan.rate }}</td>
+                                                    <td>{{ act.payouts }}</td>
+                                                    <td>{{ act.id }}</td>
+                                                    <td>{{ act.status }}</td>
+                                                </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block exjs %}
+    <script type="text/javascript">
+        $(function () {
+            $('.min-chart#chart-sales').easyPieChart({
+                barColor: "#4caf50",
+                onStep: function (from, to, percent) {
+                    if (percent < 100) {
+                        $(this.el).find('.percent').text(Math.round(percent));
+                    } else {
+                        $(this.el).find('.percent').text(100);
+                    }
+                }
+            });
+        });
+        objectFitImages();
+        jarallax(document.querySelectorAll('.jarallax'));
+        jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+            keepImg: true,
+        });
+
+    </script>
+{% endblock %}

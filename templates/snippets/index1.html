@@ -1,0 +1,516 @@
+<!DOCTYPE html>{% load staticfiles cms_tags sekizai_tags menu_tags i18n %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock%} &ndash; Casino Investment</title>
+    <link rel="icon" type="image/x-icon" href="{% static "images/favicons/favicon.ico" %}"/>
+    <link rel="icon" type="image/png" href="{% static "images/favicons/favicon.png" %}" />
+    <!-- For iPhone 4 Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static "images/favicons/apple-touch-icon-114x114-precomposed.png" %}">
+    <!-- For iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static "images/favicons/apple-touch-icon-72x72-precomposed.png" %}">
+    <!-- For iPhone: -->
+    <link rel="apple-touch-icon-precomposed" href={% static "images/favicons/apple-touch-icon-60x60-precomposed.png" %}>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/mdb.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/theme.css" %}">
+    <link rel="stylesheet" href="{% static "css/color-defaults.css" %}">
+    <link rel="stylesheet" href="{% static "css/swatch-white-yellow.css" %}">
+    <link rel="stylesheet" href="{% static "css/swatch-cold-yellow.css" %}">
+    <link rel="stylesheet" href="{% static "css/swatch-white-royal.css" %}">
+    <link rel="stylesheet" href="{% static "css/swatch-black-yellow.css" %}">
+    <link rel="stylesheet" media="screen" href={% static "css/fonts.css"%} >
+    <link rel="stylesheet" media="screen" href={% static "css/revolution.css" %}>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark scrolling-navbar mask rgba-black-strong" style="backdrop-filter: blur(8px);">
+            <a class="navbar-brand my-n3" href="#">
+                <img src="{% static "images/logo.png"  %}" width="50" class="d-inline-block align-center" alt="">
+                Casino Investment
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'faq' %}">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'rules' %}">Rules</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
+                        </a>
+                        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i> usernam
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="content" role="main">
+        <section class="section swatch-cold-yellow section-nopadding">
+            <div data-jarallax data-speed="0.2" style="background-image: url('{% static 'images/design/section-bg/c1.jpg' %}');">
+                <div class="mask rgba-black-strong">
+                    <div class="container-fullwidth">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="tp-banner-container">
+                                    <div class="tp-banner">
+                                        <ul style="display:none;">
+                                            <li data-transition="zoomout" data-slotamount="4">
+                                                <div class="caption sfb stt super light" data-x="20" data-y="180" data-speed="400" data-endspeed="400" data-start="2000" data-end="4000" data-easing="easeInBack">
+                                                    New Life!
+                                                </div>
+                                                <div class="caption sfb stt super light" data-x="40" data-y="180" data-speed="400" data-endspeed="400" data-start="4000" data-end="5500" data-easing="easeInBack">
+                                                    Casino Investment
+                                                </div>
+                                                <div class="caption sfb stt super light" data-x="20" data-y="180" data-speed="400" data-start="5500" data-easing="easeInBack">
+                                                    the Easiest way
+                                                </div>
+                                                <div class="caption sfb stt super light" data-x="40" data-y="250" data-speed="400" data-start="5700" data-easing="easeInBack">
+                                                    to Invest money
+                                                </div>
+                                                <div class="caption sfb stt super light" data-x="60" data-y="320" data-speed="400" data-start="5900" data-easing="easeInBack">
+                                                    you've ever seen
+                                                </div>
+                                            </li>
+                                            <li data-transition="parallaxtoright" data-slotamount="4">
+
+                                                <div class="tp-caption sfl super light" data-x="30" data-y="180" data-speed="1200" data-start="1800" data-easing="easeInBack">
+                                                    Easy & Reliably
+                                                </div>
+                                                <div class="tp-caption sfl super light" data-x="80" data-y="240" data-speed="1200" data-start="2100" data-easing="easeInBack">
+                                                    Create your deposit
+                                                </div>
+                                                <div class="tp-caption sfl  super light" data-x="165" data-y="300" data-speed="1200" data-start="2400" data-easing="easeInBack">
+                                                    And get your money
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-short swatch-cold-yellow has-top has-bottom">
+            <div class="decor-top">
+                <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M80 40 L100 100 L0 100" stroke-width="0"></path>
+                </svg>
+            </div>
+            <div class="container ">
+                <header class="section-header text-center underline">
+                    <h4 class="headline super hairline"><sup>Don't Try Your Luck</sup></br>Control It</h4>
+                </header>
+                <div class="row ">
+                    <ul class="list-unstyled row box-list">
+                        <li class="col-md-3 text-center " data-os-animation="" data-os-animation-delay="">
+                            <div class="box-hex box-medium ">
+                                <div class="box-dummy "></div>
+                                <a class="box-inner" href="">
+                                    <i class="fa fa-shield" data-animation="heartBeat"></i>
+                                </a>
+                            </div>
+                            <h3 class="text-center ">
+                                <a href="">
+                                    Proven Leader </br>
+                                    Security
+                                </a>
+                            </h3>
+                            <p class="text-center ">Multi-tier & multi-cluster system architecture combined with provides an increase in the reliability and safety of the platform</p>
+                        </li>
+                        <li class="col-md-3 text-center" data-os-animation="" data-os-animation-delay="">
+                            <div class="box-hex box-medium">
+                                <div class="box-dummy"></div>
+                                <a class="box-inner " href="">
+                                    <i class="far fa-id-card" data-animation="pulse"></i>
+                                </a>
+                            </div>
+                            <h3 class="text-center ">
+                                <a href="">
+                                    No Magic</br> No Risks
+                                </a>
+                            </h3>
+                            <p class="text-center">Financial managers Casino Investment created an unique and extremely simple system to invest without risk. Efficient allocation of capital provides the company an opportunity to live always.</p>
+                        </li>
+                        <li class="col-md-3 text-center" data-os-animation="" data-os-animation-delay="">
+                            <div class="box-hex box-medium">
+                                <div class="box-dummy"></div>
+                                <a class="box-inner " href="">
+                                    <i class="fas fa-chart-line" data-animation="swing"></i>
+                                </a>
+                            </div>
+                            <h3 class="text-center ">
+                                <a href="">Multi-Level </br>
+                                    Buisness
+                                </a>
+                            </h3>
+                            <p class="text-center">To eliminate all risks, Casino Investment daily receives part of the profits from the projects to scroll on the stock exchange. Our traders increase earnings by 35% after which part of the rewards we
+                                pay
+                                our
+                                investors.</p>
+                        </li>
+                        <li class="col-md-3 text-center" data-os-animation="" data-os-animation-delay="">
+                            <div class="box-hex  box-medium">
+                                <div class="box-dummy"></div>
+                                <a class="box-inner " href="">
+                                    <i class="fas fa-coins" data-animation="bounce"></i>
+                                </a>
+                            </div>
+                            <h3 class="text-center ">
+                                <a href="">
+                                    Professional</br> Marketing
+                                </a>
+                            </h3>
+                            <p class="text-center">Your bones don&#x27;t break, mine do. That&#x27;s clear. Your cells react to bacteria and viruses differently than mine.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="decor-bottom">
+                <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0 L50 40 L100 0" stroke-width="0"></path>
+                </svg>
+            </div>
+        </section>
+        <section class="section swatch-cold-yellow section-nopadding">
+            <div data-jarallax data-speed="0.2" style="background-image: url('images/design/section-bg/p1.jpg');">
+                <div class="container-fullwidth mask rgba-black-strong">
+                    <header class="section-header underline">
+                        <h1 class="headline super hairline mt-5">Our Partners</h1>
+                    </header>
+                    <div class="row pb-5 mb-n5">
+
+                        <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+
+                                <div class="carousel-item active">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client1.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client2.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client3.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client4.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client5.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client6.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-4 col-md-3 col-lg-2">
+                                        <img class="card-img-top" src="images/design/clients/client7.png" alt="Card image cap">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section swatch-cold-yellow has-top has-bottom mt-n5">
+            <div class="decor-top">
+                <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 40 L100 100 L0 100" stroke-width="0"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <header class="section-header underline text-center">
+                    <h1 class="headline super hairline">Pricing</h1>
+                </header>
+                <div class="row justify-content-around">
+                    <div class="col-sm-8 col-md-6 col-lg-4 text-default">
+                        <div class="pricing-col">
+                            <h2 class="pricing-head">Standard</h2>
+                            <div class="pricing-body">
+                                <div class="pricing-price">
+                                    <div class="overlay">
+                                        <h4>
+                                            <small>$</small>
+                                            10
+                                            <small>month</small>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>1 project</li>
+                                    <li>5 GB Storage</li>
+                                    <li>5 Users</li>
+                                    <li>5 GB Bandwidth</li>
+                                </ul>
+                                <div class="overlay">
+                                    <a href="#" class="btn btn-lg btn-info btn-rounded">Get It Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-lg-4 text-default">
+                        <div class="pricing-col pricing-featured">
+                            <h2 class="pricing-head">Personal</h2>
+                            <div class="pricing-body">
+                                <div class="pricing-price">
+                                    <div class="overlay">
+                                        <h4>
+                                            <small>$</small>
+                                            19
+                                            <small>month</small>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>5 project</li>
+                                    <li>50 GB Storage</li>
+                                    <li>50 Users</li>
+                                    <li>50 GB Bandwidth</li>
+                                </ul>
+                                <div class="overlay">
+                                    <a href="#" class="btn btn-lg btn-success btn-rounded">Get It Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-lg-4 text-default">
+                        <div class="pricing-col">
+                            <h2 class="pricing-head">Advanced</h2>
+                            <div class="pricing-body">
+                                <div class="pricing-price">
+                                    <div class="overlay">
+                                        <h4>
+                                            <small>$</small>
+                                            99
+                                            <small>month</small>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>1 project</li>
+                                    <li>100 GB Storage</li>
+                                    <li>80 Users</li>
+                                    <li>120 GB Bandwidth</li>
+                                </ul>
+                                <div class="overlay">
+                                    <a href="#" class="btn btn-lg btn-info btn-rounded">Get It Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="decor-bottom">
+                <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0 L50 100 L100 0" stroke-width="0"></path>
+                </svg>
+            </div>
+        </section>
+        <section class="section swatch-white-yellow has-top">
+            <div class="decor-top">
+                <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 100 L50 0 L100 100" stroke-width="0"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <header class="section-header ">
+                    <h1 class="headline super hairline">Ready to rock?</h1>
+                    <p class="">He&#x27;s the exact opposite of the hero. And most times they&#x27;re friends, like you and me! I should&#x27;ve known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
+                </header>
+                <div class="text-center">
+                    <a class="btn btn-yellow btn-lg btn-rounded text-white" href="#">
+                        Lets make it happen  <i class="far fa-gem mr-2" data-animation="tada"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" role="contentinfo">
+            <section class="section swatch-cold-yellow has-top">
+                <div class="decor-top">
+                    <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0 L50 100 L100 0 L100 100 L0 100" stroke-width="0"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div id="swatch_social-2" class="sidebar-widget  widget_swatch_social">
+                                <ul class="unstyled inline small-screen-center social-icons social-background social-big">
+                                    <li>
+                                        <a target="_blank" href="http://www.oxygenna.com">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://www.oxygenna.com">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://www.oxygenna.com">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="text-4" class="sidebar-widget widget_text">
+                                <div class="textwidget">ANGLE 2014 ALL RIGHTS RESERVEd
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <a class="go-top hex-alt" href="javascript:void(0)" data-animation="hinge">
+        <i class="fa fa-angle-up" data-animation="fadeOutUp"></i>
+    </a>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <script type="text/javascript" src="js/packages.js"></script>
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript" src="js/revolution.js"></script>
+    <script type="text/javascript" src="js/theme.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('.tp-banner').show().revolution({
+                delay: 8000,
+                startheight: 435,
+                startwidth: 490,
+                fullScreenAlignForce: "off",
+                autoHeight: "off",
+                hideTimerBar: "off",
+                hideThumbs: 200,
+                hideNavDelayOnMobile: 1500,
+
+                thumbWidth: 1, // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+                thumbHeight: 1,
+                thumbAmount: 1,
+
+                navigationType: "bullet", // bullet, thumb, none
+                navigationArrows: "solo", // nextto, solo, none
+                navigationInGrid: "off", // on/off
+
+                hideThumbsOnMobile: "off",
+                hideBulletsOnMobile: "off",
+                hideArrowsOnMobile: "off",
+                hideThumbsUnderResoluition: 0,
+
+                navigationStyle: "none", // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item),
+
+                navigationHAlign: "center", // Vertical Align top,center,bottom
+                navigationVAlign: "bottom", // Horizontal Align left,center,right
+                navigationHOffset: 0,
+                navigationVOffset: 0,
+
+                soloArrowLeftHalign: "left",
+                soloArrowLeftValign: "center",
+                soloArrowLeftHOffset: 10,
+                soloArrowLeftVOffset: 0,
+
+                soloArrowRightHalign: "right",
+                soloArrowRightValign: "center",
+                soloArrowRightHOffset: 10,
+                soloArrowRightVOffset: 0,
+
+                keyboardNavigation: "on",
+
+                touchenabled: "on", // Enable Swipe Function : on/off
+                onHoverStop: "off", // Stop Banner Timet at Hover on Slide on/off
+
+
+                stopAtSlide: -
+                    1, // Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+                stopAfterLoops: -1, // Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+                hideCaptionAtLimit: 0, // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+                hideAllCaptionAtLimit: 0, // Hide all The Captions if Width of Browser is less then this value
+                hideSliderAtLimit: 0, // Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+                shadow: 0, //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+                fullWidth: "off", // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+                fullScreen: "off",
+                minFullScreenHeight: 500, // The Minimum FullScreen Height
+                fullScreenOffsetContainer: "500", // Size for FullScreen Slider minimising Calculated on the Container sizes
+                fullScreenOffset: "100", // Size for FullScreen Slider minimising
+                dottedOverlay: "none", //twoxtwo, threexthree, twoxtwowhite, threexthreewhite
+
+                forceFullWidth: "off", // Force The FullWidth
+
+                spinner: "spinner0",
+
+                swipe_treshold: 75, // The number of pixels that the user must move their finger by before it is considered a swipe.
+                swipe_min_touches: 1, // Min Finger (touch) used for swipe
+                drag_block_vertical: false, // Prevent Vertical Scroll during Swipe
+                isJoomla: false,
+                parallax: "off",
+                parallaxLevels: [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85],
+                parallaxBgFreeze: "off",
+                parallaxOpacity: "on",
+                parallaxDisableOnMobile: "off",
+                panZoomDisableOnMobile: "off",
+                simplifyAll: "on",
+                minHeight: 0,
+                nextSlideOnWindowFocus: "off",
+
+                startDelay: 0 // Delay before the first Animation starts.
+
+            });
+        });
+    </script>
+</body>
+
+</html>

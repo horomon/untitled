@@ -1,0 +1,44 @@
+{% extends 'base_cabinet.html' %}{% load i18n %}
+{% block title %}{% trans 'History' %}{% endblock%}
+{% block head_title %}{% trans 'History' %}{% endblock %}
+{% block content %}
+    <div class="card aqua-gradient pt-2 pb-4 pl-4 pr-3">
+
+        <div class="card card-form blue-grey darken-4 mt-1">
+            <div class="card-body rounded card-body-cascade p-0 pl-2 pb-4">
+                <div class="rounded blue-gradient pt-4 pb-1 my-4 ml-n5 mr-1">
+                    <h2 class="font-weight-bold text-left text-uppercase text-white ml-5 pl-2">Balance History</h2>
+                </div>
+                <div class="container">
+                    <div class="table-responsive text-nowrap">
+                        <table class="table table-striped" id="dtable">
+                            <thead>
+                            <tr>
+                                <th scope="col">From</th>
+                                <th scope="col">To</th>
+                                <th scope="col">Invested</th>
+                                <th scope="col">Rate</th>
+                                <th scope="col">Payed</th>
+                                <th scope="col">Contract</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for act in actives %}
+                                <tr>
+                                    <td>{{ act.start_date }}</td>
+                                    <td>{{ act.end_date }}</td>
+                                    <td>{{ act.invested }}</td>
+                                    <td>{{ act.plan.rate }}</td>
+                                    <td>{{ act.payouts }}</td>
+                                    <td>{{ act.id }}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+

@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% load static %}
+{% block wrapper %}
+    <section class="section swatch-cold-yellow pb-0 p-t-70">
+        <div data-jarallax data-speed="0.2" class="jarallax-keep-img" style="height: 180px;">
+            <img src="{{ STATIC_URL }}images/design/section-bg/c2.jpg" class="jarallax-img " alt="">
+            <div class="mask flex-center rgba-black-strong">
+                <header class="section-header text-center underline pt-5">
+                    <p class="headline super hairline text-center mt-5">{% block head_title %}{% endblock %}</p>
+                </header>
+            </div>
+        </div>
+    </section>
+    <section class="section swatch-cold-yellow has-bottom p-t-0 p-b-10">
+        <div class="container col-12">
+            {% include "plugins/dashnav.html" %}
+        </div>
+        <div class="decor-bottom">
+            <svg class="decor" height="100%" preserveaspectratio="none" version="1.1" viewbox="0 0 100 100" width="100%"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0 L50 50 L100 0" stroke-width="0"></path>
+            </svg>
+        </div>
+    </section>
+    <section class="section section-short swatch-white-yellow my-n5" id="SectionUSDin">
+        <div class="view jarallax my-n5" data-jarallax data-speed="0.2" style="height: 1vh;">
+            <img src="{% static 'images/design/section-bg/p3.jpg' %}" class="jarallax-img " alt="">
+            <div class="mask flex-center rgba-white-strong">
+                <div class="container">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

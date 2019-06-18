@@ -1,0 +1,15 @@
+{% load cms_tags %}
+
+
+
+
+<a class="btn {{ instance.btn_color }}  {{ instance.btn_size }}  {{ instance.icon_pos }} " href=" {{ instance.btn_href }}">
+    {% if instance.btn_icon and instance.icon_pos == "l" %}<i class="fa {{ instance.btn_icon }}"></i>{% endif %}
+    {{ instance.btn_text }}
+    {% if instance.btn_icon and instance.icon_pos == "r" %}<i class="fa {{ instance.btn_icon }}"></i>{% endif %}
+    {% if instance.btn_icon and instance.icon_pos == "btn-icon-right" or instance.icon_pos == "btn-icon-left"%}
+    <span class="hex-alt hex-alt-big">
+        <i class="fa fa-shopping-cart" ></i>
+    </span>
+    {% endif %}
+</a>

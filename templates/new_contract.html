@@ -1,0 +1,70 @@
+{% extends 'base_cabinet.html' %} {% load i18n static staticfiles %}
+{% block title %}{% trans 'New Deposit' %}{% endblock %}
+{% block head_title %}{% trans 'New Deposit' %}{% endblock %}
+{% block content %}
+    <div class="card aqua-gradient pt-2 pb-4 pl-4 pr-3">
+
+        <div class="card card-form blue-grey darken-4 mt-1">
+            <div class="card-body rounded card-body-cascade p-0 pl-2 text-center">
+                <div class="rounded blue-gradient pt-4 pb-1 mt-4 ml-n5 mr-1">
+                    <h2 class="font-weight-bold text-left text-uppercase text-white ml-5 pl-2">{% trans "New Deposit" %}</h2>
+                </div>
+                <form class="py-3 px-2" name="NewDepo" id="NewDepoForm" method="POST">
+                    {% if form.errors %}
+                        {% for field in form %}
+                            {% for error in field.errors %}
+                                <div class="alert alert-danger" role="alert">
+                                    {{ error|escape }}
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                        {% for error in form.non_field_errors %}
+                            <div class="alert alert-danger" role="alert">
+                                {{ error|escape }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="btn-group d-flex flex-column flex-md-row" data-toggle="buttons">
+                            {% for radio in form.plan %}
+                                <label class="btn btn-primary form-check-label " for="{{ radio.id_for_label }}">
+                                    {{ radio.tag }}
+                                    {{ radio.choice_label }}
+                                </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="my-5 text-white col-4 offset-4 text-left">
+                        <div class="md-form">
+                            <i class="fas fa-coins prefix text-white"></i>
+                            {{ form.invested }}
+                            <label class="text-white mr-5" for="id_invested">USD</label>
+                        </div>
+                    </div>
+
+                    {% csrf_token %}
+                </form>
+            </div>
+            <div class="rounded-bottom amber text-center ">
+                <button class="btn btn-outline-red-accent btn-rounded btn-block amber z-depth-0 mb-n1" type="submit"
+                        form="NewDepoForm"><strong class="h5">{% trans "Create Contract" %}</strong></button>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block exjs %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.mdb-select').materialSelect();
+        });
+    </script>
+{% endblock %}
+
+
