@@ -52,7 +52,7 @@
                 {% if request.user.is_authenticated %}
                     <li class="nav-item dropdown mt-1">
                         <a class="nav-link dropdown-toggle" id="notifyDropdownMenuLink" data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell"></i><sup>{% live_notify_badge %}{% notifications_unread %}</sup></a>
+                           aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell"></i><sup>{% live_notify_badge %}</sup></a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="notifyDropdownMenuLink">
                             {% live_notify_list %}{# TODO notifications output and clearing #}
                         </div>
