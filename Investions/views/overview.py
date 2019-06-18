@@ -11,6 +11,7 @@ from django.utils.translation import gettext_lazy as _
 def overview(request):
     context = {}
     context['actives']=InvestActive.objects.filter(user=request.user)
+    context['actual']=context['actives'].filter(status='open')
     return render(request, 'overview.html', context)
 
 
@@ -35,12 +36,13 @@ def get_money(request):
     contr = InvestActive.objects.filter(id=contr_id).first()
     if contr.user == request.user:
         if contr.is_finished:
-            amount = contr.payouts
-            profile = Profile.objects.filter(user=request.user).first()
-            profile.balance += amount
-            profile.save()
-            contr.status = "payed"
-            contr.save()
-            notify.send(request.user, recipient=request.user, level='success',
-                        verb=_('Congratulations, the contract payout was successful.'))
+            if contr.status == 'open':
+                amount = contr.payouts
+                profile = Profile.objects.filter(user=request.user).first()
+                profile.balance += amount
+                profile.save()
+                contr.status = "payed"
+                contr.save()
+                notify.send(request.user, recipient=request.user, level='success',
+                            verb=_('Congratulations, the contract payout was successful.'))
     return redirect(reverse('overview'))

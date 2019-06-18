@@ -111,3 +111,14 @@ def page_history(request):
     actives = InvestActive.objects.filter(user=request.user)
     context['actives'] = actives
     return render(request, 'history.html', context)
+
+
+@login_required
+def mark_all_as_read(request):
+    request.user.notifications.mark_all_as_read()
+    url = request.META.get('HTTP_REFERER')
+    _next = request.GET.get('next')
+
+    if _next:
+        return redirect(_next)
+    return redirect(url)

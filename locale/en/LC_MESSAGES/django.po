@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-31 11:00+0000\n"
+"POT-Creation-Date: 2019-06-18 13:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,1491 +18,317 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Investions/forms.py:30 Investions/forms.py:92
+#: Investions/admin.py:21
+msgid "Make visible."
+msgstr "Make visible."
+
+#: Investions/admin.py:25
+msgid "Make inactive."
+msgstr "Make inactive."
+
+#: Investions/apps.py:8
+msgid "Investment"
+msgstr "Investment"
+
+#: Investions/forms.py:29 Investions/forms.py:91
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
-#: Investions/forms.py:31
+#: Investions/forms.py:30
 msgid "Remember Me"
-msgstr ""
+msgstr "Remember Me"
 
-#: Investions/forms.py:37
+#: Investions/forms.py:36
 msgid "This account is currently inactive."
-msgstr ""
+msgstr "This account is currently inactive."
 
-#: Investions/forms.py:40
+#: Investions/forms.py:39
 msgid "The e-mail address and/or password you specified are not correct."
-msgstr ""
+msgstr "The e-mail address and/or password you specified are not correct."
 
-#: Investions/forms.py:43
+#: Investions/forms.py:42
 msgid "The username and/or password you specified are not correct."
-msgstr ""
+msgstr "The username and/or password you specified are not correct."
 
-#: Investions/forms.py:52 Investions/forms.py:86
+#: Investions/forms.py:50 Investions/forms.py:85 Investions/forms.py:140
 msgid "E-mail address"
-msgstr ""
+msgstr "E-mail address"
 
-#: Investions/forms.py:55 Investions/templates/contact.html:30
+#: Investions/forms.py:54 Investions/forms.py:135 Investions/models.py:200
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
-#: Investions/forms.py:60 Investions/forms.py:64
+#: Investions/forms.py:59 Investions/forms.py:63
 msgid "Username"
-msgstr ""
+msgstr "Username"
 
-#: Investions/forms.py:71
+#: Investions/forms.py:70
 msgid "Username or e-mail"
-msgstr ""
+msgstr "Username or e-mail"
 
-#: Investions/forms.py:75
+#: Investions/forms.py:74
 msgctxt "field label"
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
-#: Investions/forms.py:94
+#: Investions/forms.py:93
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirm password"
 
-#: Investions/forms.py:122
+#: Investions/forms.py:121
 msgid "The password and confirm password fields do not match."
-msgstr ""
+msgstr "The password and confirm password fields do not match."
 
-#: Investions/models.py:12
+#: Investions/forms.py:163
+msgid "USD"
+msgstr "USD"
+
+#: Investions/forms.py:165 templates/cash_out.html:22
+msgid "Your Card Number or BTC wallet address"
+msgstr "Your Card Number or BTC wallet address"
+
+#: Investions/forms.py:167 Investions/views/static_pages.py:67
+msgid "Not enouth money"
+msgstr "Not enouth money"
+
+#: Investions/models.py:16
 msgid "User balance"
-msgstr ""
+msgstr "User balance"
 
-#: Investions/models.py:13
+#: Investions/models.py:17
 msgid "Crypto Wallet"
-msgstr ""
+msgstr "Crypto Wallet"
 
-#: Investions/models.py:14
+#: Investions/models.py:18
 msgid "Email верифицирован"
-msgstr ""
+msgstr "Email verified"
 
-#: Investions/models.py:38
-msgid "White-Black"
-msgstr ""
+#: Investions/models.py:63
+msgid "Plan Name"
+msgstr "Plan Name"
 
-#: Investions/models.py:39
-msgid "White-Yellow"
-msgstr ""
-
-#: Investions/models.py:40
-msgid "Black-Yellow"
-msgstr ""
-
-#: Investions/models.py:41
-msgid "DarkGrey-Yellow"
-msgstr ""
-
-#: Investions/models.py:45
-msgid "Color Theme"
-msgstr ""
-
-#: Investions/models.py:51
-msgid "Top Decorator"
-msgstr ""
-
-#: Investions/models.py:55
-msgid "Bottom Decorator"
-msgstr ""
-
-#: Investions/models.py:59
-msgid "Section Title"
-msgstr ""
-
-#: Investions/models.py:61
-msgid "Pricing"
-msgstr ""
-
-#: Investions/models.py:65
-msgid "Holder for Invest Plugins"
-msgstr ""
+#: Investions/models.py:67
+msgid "Minimal Investition"
+msgstr "Minimal Investition"
 
 #: Investions/models.py:70
-msgid "Plan Name"
-msgstr ""
+msgid "Maximal Investition Limit"
+msgstr "Maximal Investition Limit"
+
+#: Investions/models.py:73 templates/overview.html:61
+msgid "Period"
+msgstr "Period"
 
 #: Investions/models.py:74
-msgid "Minimal Investition"
-msgstr ""
+msgid "Investition period in days"
+msgstr "Investition period in days"
 
 #: Investions/models.py:77
-msgid "Maximal Investition Limit"
-msgstr ""
+msgid "Daily Rate"
+msgstr "Daily Rate"
 
-#: Investions/models.py:80 Investions/templates/overview.html:44
-msgid "Period"
-msgstr ""
+#: Investions/models.py:79
+msgid "Is Active?"
+msgstr "Is Active?"
 
 #: Investions/models.py:81
-msgid "Investition period in days"
-msgstr ""
-
-#: Investions/models.py:84
-msgid "Daily Rate"
-msgstr ""
-
-#: Investions/models.py:87
-msgid "Is Active?"
-msgstr ""
-
-#: Investions/models.py:88
 msgid "Plan visibility for new investitions"
-msgstr ""
+msgstr "Plan visibility for new investitions"
 
-#: Investions/models.py:110 Investions/models.py:123
+#: Investions/models.py:88 Investions/models.py:139
 msgid "Investition Plan"
-msgstr ""
+msgstr "Investition Plan"
 
-#: Investions/models.py:117
+#: Investions/models.py:89
+msgid "Investition Plans"
+msgstr "Investition Plans"
+
+#: Investions/models.py:133
 msgid "User"
-msgstr ""
+msgstr "User"
 
-#: Investions/models.py:125 Investions/models.py:167
+#: Investions/models.py:141
 msgid "Start Date"
-msgstr ""
+msgstr "Start Date"
 
-#: Investions/models.py:126 Investions/templates/overview.html:43
-#: Investions/templates/overview.html:124
+#: Investions/models.py:142 templates/overview.html:60
+#: templates/overview.html:147
 msgid "Invested"
-msgstr ""
+msgstr "Invested"
 
-#: Investions/models.py:127 Investions/templates/overview.html:128
+#: Investions/models.py:143 django_freekassa/models.py:63
+#: templates/overview.html:151
 msgid "Status"
-msgstr ""
+msgstr "Status"
+
+#: Investions/models.py:151
+msgid "Investition Active"
+msgstr "Investition Active"
 
 #: Investions/models.py:152
-msgid "Investition Active"
-msgstr ""
+msgid "Investition Actives"
+msgstr "Investition Actives"
 
-#: Investions/models.py:161
-msgid "Open"
-msgstr ""
+#: Investions/models.py:187
+msgid "Site Contact"
+msgstr "Site Contact"
 
-#: Investions/models.py:162
-msgid "Closed"
-msgstr ""
+#: Investions/models.py:188
+msgid "Site Contacts"
+msgstr "Site Contacts"
 
-#: Investions/templates/about.html:2 Investions/templates/base.html:52
-#: Investions/templates/index.html:163
-msgid "О компании"
-msgstr "About"
+#: Investions/models.py:194
+msgid "Phone"
+msgstr "Phone"
 
-#: Investions/templates/about.html:9
-msgid "О КОМПАНИИ"
-msgstr "About Company"
+#: Investions/models.py:195
+msgid "Address"
+msgstr "Address"
 
-#: Investions/templates/about.html:19
-#, python-format
-msgid "\n"
-"                            <p class=\"card-text text-white\">Слава, азарт, "
-"желание разбогатеть эти факторы являются двигателем бизнеса уже несколько "
-"сотен лет. Миллиарды долларов ежедневно крутятся внутри игорного бизнеса, "
-"всевозможные казино и лотереи привлекают людей своей игривостью и "
-"авантюризмом. Первое казино в Европе было создано в 1638 году в Венеции, это "
-"был игорный дом Ридитто построенный по приказу правительства в здании "
-"церкви, уже тогда множество людей проявляло тщетные попытки разбогатеть, "
-"играя в рулетку.</p>\n"
-"                            <p class=\"card-text text-white\">Возможно даже "
-"и вы пробовали свою удачу в казино и скорей всего у вас ничего из этого не "
-"вышло. В 2012 году на встрече в отеле SKYLOFT в Лас Вегас владельцы трех "
-"крупных казино заключили альянс по созданию on-line игорной индустрии. Суть "
-"этого альянса заключалась в создании целой сети on-line казино и лотереи.</p>\n"
-"                            <p class=\"card-text text-white\">Casino "
-"Investment являются совладельцами этого бизнеса с 2015 года имея 24%% акций "
-"альянса. Наша роль в альянсе привлечение инвестиций для создания большего "
-"количества казино и продвижения их на рынке.</p>\n"
-"                            <p class=\"card-text text-white\">С данной "
-"миссией, мы создали площадку Casino Investment, первая в мире мульти-"
-"маркетинговая финансовая платформа, состоящая из трех основных действий.</p>\n"
-"                            <h6 class=\"font-weight-bold amber-text\">Привлечение инвестиций, Обеспечение диверсификации, Открытие и "
-"продвижение проектов</h6>\n"
-"                            <p class=\"card-text text-white\">Финансовые "
-"менеджеры Casino Investment создали систему, позволяющую инвестировать без "
-"рисков. Данная система уникальна и крайне проста.</p>\n"
-"                            <p class=\"card-text text-white\">Инвесторы, "
-"вкладывая деньги получают ежедневную прибыль, наши специалисты распределяют "
-"инвестиционный фонд по проектам, 58%% идут в уже работающие проекты для "
-"увеличения фонда Джек пота и привлечения большего количества игроков, 12%% "
-"инвестиций распределятся между проектами находящихся на финальной стадии "
-"подготовки и выпуску на рынок, 30%% фонда распределяются между стартапами по "
-"мере их актуальности.</p>\n"
-"                            <p class=\"card-text text-white\">Что бы "
-"исключить все риски, Casino Investment ежедневно получает часть прибыли от "
-"проектов для прокрутки на бирже. Наши трейдеры увеличивают прибыль на 35%% "
-"после чего часть прибыли мы выплачиваем нашим инвесторам.</p>\n"
-"                            <hr>\n"
-"                            <h6 class=\"font-weight-bold amber-text\">Таким "
-"образом Casino Investment обеспечивает своим инвесторам качественный "
-"инвестиционный продукт, без издержек и рисков.</h6>"
+#: Investions/models.py:196
+msgid "Telegram"
+msgstr "Telegram"
 
-msgstr ""
-#"<p class = \" card-text text-white \"> Glory, excitement,"
-#"the desire to get rich, these factors are already the engine of business"
-#"hundreds of years. Billions of dollars revolve daily inside the gambling business,"
-#"all kinds of casinos and lotteries attract people with their playfulness and"
-#"adventurism. The first casino in Europe was created in 1638 in Venice, it is"
-#"there was a Riditto gambling house built by order of the government in the building"
-#"churches, even then a lot of people showed vain attempts to get rich,"
-#"playing roulette. </p> \n"
-#"<p class = \" card-text text-white \"> Maybe even"
-#"and you tried your luck at the casino and most likely you have none of this"
-#"came out. In 2012, at a meeting at the SKYLOFT hotel in Las Vegas, the owners of three"
-#"major casinos have entered into an alliance to create an on-line gaming industry. The bottom line"
-#"of this alliance was to create a whole network of on-line casinos and lotteries. </p> \n"
-#"<p class = \" card-text text-white \"> Casino"
-#"Investment are co-owners of this business since 2015 with 24 %% of shares"
-#"Alliance. Our role in the alliance is to attract investment to create more"
-#"the number of casinos and their promotion in the market. </p> \n"
-#"<p class = \" card-text text-white \"> With this"
-#"by mission, we created Casino Investment Platform, the world's first multi-"
-#"a marketing financial platform consisting of three main actions. </p> \n"
-#"<h6 class = \" font-weight-bold amber-text \"> Attracting investment, Diversification, Opening and "
-#"project promotion </h6> \n"
-#"<p class = \" card-text text-white \"> Financial"
-#"Casino Investment managers created a system that allows you to invest without"
-#"risks. This system is unique and extremely simple. </p> \n"
-#"<p class = \" card-text text-white \"> Investors,"
-#"by investing money they receive a daily profit, our experts distribute"
-#"investment fund on projects, 58 %% go to already working projects for"
-#"increasing the pool of jackpot and attracting more players, 12 %%"
-#"investments will be distributed between projects at the final stage"
-#"preparation and release to the market, 30% of the fund are distributed among startups by"
-#"as relevant. </p> \n"
-#"<p class = \" card-text text-white \"> whatever"
-#"exclude all risks Casino Investment receives a daily profit from"
-#"projects for scrolling on the stock exchange. Our traders increase profits by 35 %%"
-#"after which we pay part of the profits to our investors. </p> \n"
-#"<hr> \n"
-#"<h6 class = \" font-weight-bold amber-text \"> So"
-#"the way Casino Investment provides its investors with quality"
-#"investment product, without cost and risk. </h6>"
+#: Investions/models.py:197
+msgid "WhatsApp"
+msgstr "WhatsApp"
 
-#: Investions/templates/account/account_inactive.html:5
-#: Investions/templates/account/account_inactive.html:8
-#: untitled/123/templates/account/account_inactive.html:5
-#: untitled/123/templates/account/account_inactive.html:8
-msgid "Account Inactive"
-msgstr ""
+#: Investions/models.py:198
+msgid "Viber"
+msgstr "Viber"
 
-#: Investions/templates/account/account_inactive.html:10
-#: untitled/123/templates/account/account_inactive.html:10
-msgid "This account is inactive."
-msgstr ""
+#: Investions/models.py:199
+msgid "Facebook"
+msgstr "Facebook"
 
-#: Investions/templates/account/email.html:5
-#: untitled/123/templates/account/email.html:5
-msgid "Account"
-msgstr ""
+#: Investions/models.py:201
+msgid "Vk.com"
+msgstr "Vk.com"
 
-#: Investions/templates/account/email.html:8
-#: untitled/123/templates/account/email.html:8
-msgid "E-mail Addresses"
-msgstr ""
+#: Investions/models.py:207
+msgid "Contact type"
+msgstr "Contact type"
 
-#: Investions/templates/account/email.html:10
-#: untitled/123/templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
-msgstr ""
+#: Investions/models.py:211
+msgid "Contact Data"
+msgstr "Contact Data"
 
-#: Investions/templates/account/email.html:24
-#: untitled/123/templates/account/email.html:24
-msgid "Verified"
-msgstr ""
+#: Investions/views/overview.py:29
+msgid "The contract was canseled."
+msgstr "The contract was canseled."
 
-#: Investions/templates/account/email.html:26
-#: untitled/123/templates/account/email.html:26
-msgid "Unverified"
-msgstr ""
+#: Investions/views/overview.py:47
+msgid "Congratulations, the contract payout was successful."
+msgstr "Congratulations, the contract payout was successful."
 
-#: Investions/templates/account/email.html:28
-#: untitled/123/templates/account/email.html:28
-msgid "Primary"
-msgstr ""
-
-#: Investions/templates/account/email.html:34
-#: untitled/123/templates/account/email.html:34
-msgid "Make Primary"
-msgstr ""
-
-#: Investions/templates/account/email.html:35
-#: untitled/123/templates/account/email.html:35
-msgid "Re-send Verification"
-msgstr ""
-
-#: Investions/templates/account/email.html:36
-#: untitled/123/templates/account/email.html:36
-msgid "Remove"
-msgstr ""
-
-#: Investions/templates/account/email.html:43
-#: untitled/123/templates/account/email.html:43
-msgid "Warning:"
-msgstr ""
-
-#: Investions/templates/account/email.html:43
-#: untitled/123/templates/account/email.html:43
+#: Investions/views/page_contact.py:26
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"The mail was sent successfuly! Thank you for contact. We will answer as "
+"soon, as possible."
 msgstr ""
+"The mail was sent successfuly! Thank you for contact. We will answer as "
+"soon, as possible."
 
-#: Investions/templates/account/email.html:48
-#: untitled/123/templates/account/email.html:48
-msgid "Add E-mail Address"
-msgstr ""
+#: Investions/views/static_pages.py:63
+msgid "Congratulations! The contract created successfuly!"
+msgstr "Congratulations! The contract created successfuly!"
 
-#: Investions/templates/account/email.html:53
-#: untitled/123/templates/account/email.html:53
-msgid "Add E-mail"
-msgstr ""
-
-#: Investions/templates/account/email.html:62
-#: untitled/123/templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
-msgstr ""
-
-#: Investions/templates/account/email/email_confirmation_message.txt:1
-#: untitled/123/templates/account/email/email_confirmation_message.txt:1
-#, python-format
+#: Investions/views/static_pages.py:89
 msgid ""
-"Hello from %(site_name)s!\n"
-"\n"
-"You're receiving this e-mail because user %(user_display)s has given yours "
-"as an e-mail address to connect their account.\n"
-"\n"
-"To confirm this is correct, go to %(activate_url)s\n"
+"Withdrawal request successfuly created. Payout will be done during one "
+"banking day."
 msgstr ""
+"Withdrawal request successfuly created. Payout will be done during one "
+"banking day."
 
-#: Investions/templates/account/email/email_confirmation_message.txt:7
-#: untitled/123/templates/account/email/email_confirmation_message.txt:7
-#, python-format
-msgid ""
-"Thank you from %(site_name)s!\n"
-"%(site_domain)s"
-msgstr ""
+#: django_freekassa/models.py:15
+msgid "Refill"
+msgstr "Refill"
 
-#: Investions/templates/account/email/email_confirmation_subject.txt:3
-#: untitled/123/templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
-msgstr ""
+#: django_freekassa/models.py:16
+msgid "Refills"
+msgstr "Refills"
 
-#: Investions/templates/account/email/password_reset_key_message.txt:1
-#: untitled/123/templates/account/email/password_reset_key_message.txt:1
-#, python-format
-msgid ""
-"Hello from %(site_name)s!\n"
-"\n"
-"You're receiving this e-mail because you or someone else has requested a "
-"password for your user account.\n"
-"It can be safely ignored if you did not request a password reset. Click the "
-"link below to reset your password."
-msgstr ""
-
-#: Investions/templates/account/email/password_reset_key_message.txt:8
-#: untitled/123/templates/account/email/password_reset_key_message.txt:8
-#, python-format
-msgid "In case you forgot, your username is %(username)s."
-msgstr ""
-
-#: Investions/templates/account/email/password_reset_key_message.txt:10
-#: untitled/123/templates/account/email/password_reset_key_message.txt:10
-#, python-format
-msgid ""
-"Thank you for using %(site_name)s!\n"
-"%(site_domain)s"
-msgstr ""
-
-#: Investions/templates/account/email/password_reset_key_subject.txt:3
-#: untitled/123/templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
-msgstr ""
-
-#: Investions/templates/account/email_confirm.html:6
-#: Investions/templates/account/email_confirm.html:10
-#: untitled/123/templates/account/email_confirm.html:6
-#: untitled/123/templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
-msgstr ""
-
-#: Investions/templates/account/email_confirm.html:16
-#: untitled/123/templates/account/email_confirm.html:16
-#, python-format
-msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
-"address for user %(user_display)s."
-msgstr ""
-
-#: Investions/templates/account/email_confirm.html:20
-#: untitled/123/templates/account/email_confirm.html:20
-msgid "Confirm"
-msgstr ""
-
-#: Investions/templates/account/email_confirm.html:27
-#: untitled/123/templates/account/email_confirm.html:27
-#, python-format
-msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
-msgstr ""
-
-#: Investions/templates/account/login.html:6
-#: Investions/templates/account/login.html:54
-#: untitled/123/templates/account/login.html:6
-#: untitled/123/templates/account/login.html:10
-#: untitled/123/templates/account/login.html:43
-msgid "Sign In"
-msgstr ""
-
-#: Investions/templates/account/login.html:44
-#: untitled/123/templates/account/login.html:42
-msgid "Forgot Password?"
-msgstr ""
-
-#: Investions/templates/account/login.html:59
-#: untitled/123/templates/account/login.html:15
-#, python-format
-msgid ""
-"Please sign in with one\n"
-"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
-"up</a>\n"
-"for a %(site_name)s account and sign in below:"
-msgstr ""
-
-#: Investions/templates/account/login.html:69
-#: env/lib/python3.6/site-packages/django/utils/text.py:233
-#: untitled/123/templates/account/login.html:25
-msgid "or"
-msgstr ""
-
-#: Investions/templates/account/login.html:76
-#: untitled/123/templates/account/login.html:32
-#, python-format
-msgid ""
-"If you have not created an account yet, then please\n"
-"<a href=\"%(signup_url)s\">sign up</a> first."
-msgstr ""
-
-#: Investions/templates/account/logout.html:5
-#: Investions/templates/account/logout.html:10
-#: untitled/123/templates/account/logout.html:5
-#: untitled/123/templates/account/logout.html:9
-#: untitled/123/templates/account/logout.html:18
-msgid "Sign Out"
-msgstr ""
-
-#: Investions/templates/account/logout.html:12
-#: untitled/123/templates/account/logout.html:11
-msgid "Are you sure you want to sign out?"
-msgstr ""
-
-#: Investions/templates/account/logout.html:20
-msgid "Yes, sign out"
-msgstr ""
-
-#: Investions/templates/account/logout.html:21
-msgid "No, back to cabinet"
-msgstr ""
-
-#: Investions/templates/account/messages/cannot_delete_primary_email.txt:2
-#: untitled/123/templates/account/messages/cannot_delete_primary_email.txt:2
-#, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr ""
-
-#: Investions/templates/account/messages/email_confirmation_sent.txt:2
-#: untitled/123/templates/account/messages/email_confirmation_sent.txt:2
-#, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr ""
-
-#: Investions/templates/account/messages/email_confirmed.txt:2
-#: untitled/123/templates/account/messages/email_confirmed.txt:2
-#, python-format
-msgid "You have confirmed %(email)s."
-msgstr ""
-
-#: Investions/templates/account/messages/email_deleted.txt:2
-#: untitled/123/templates/account/messages/email_deleted.txt:2
-#, python-format
-msgid "Removed e-mail address %(email)s."
-msgstr ""
-
-#: Investions/templates/account/messages/logged_in.txt:4
-#: untitled/123/templates/account/messages/logged_in.txt:4
-#, python-format
-msgid "Successfully signed in as %(name)s."
-msgstr ""
-
-#: Investions/templates/account/messages/logged_out.txt:2
-#: untitled/123/templates/account/messages/logged_out.txt:2
-msgid "You have signed out."
-msgstr ""
-
-#: Investions/templates/account/messages/password_changed.txt:2
-#: untitled/123/templates/account/messages/password_changed.txt:2
-msgid "Password successfully changed."
-msgstr ""
-
-#: Investions/templates/account/messages/password_set.txt:2
-#: untitled/123/templates/account/messages/password_set.txt:2
-msgid "Password successfully set."
-msgstr ""
-
-#: Investions/templates/account/messages/primary_email_set.txt:2
-#: untitled/123/templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
-msgstr ""
-
-#: Investions/templates/account/messages/unverified_primary_email.txt:2
-#: untitled/123/templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
-msgstr ""
-
-#: Investions/templates/account/password_change.html:5
-#: Investions/templates/account/password_change.html:8
-#: Investions/templates/account/password_change.html:13
-#: Investions/templates/account/password_reset_from_key.html:4
-#: Investions/templates/account/password_reset_from_key.html:7
-#: Investions/templates/account/password_reset_from_key_done.html:4
-#: Investions/templates/account/password_reset_from_key_done.html:7
-#: untitled/123/templates/account/password_change.html:5
-#: untitled/123/templates/account/password_change.html:8
-#: untitled/123/templates/account/password_change.html:13
-#: untitled/123/templates/account/password_reset_from_key.html:4
-#: untitled/123/templates/account/password_reset_from_key.html:7
-#: untitled/123/templates/account/password_reset_from_key_done.html:4
-#: untitled/123/templates/account/password_reset_from_key_done.html:7
-msgid "Change Password"
-msgstr ""
-
-#: Investions/templates/account/password_reset.html:6
-#: Investions/templates/account/password_reset.html:10
-#: Investions/templates/account/password_reset_done.html:6
-#: Investions/templates/account/password_reset_done.html:9
-#: untitled/123/templates/account/password_reset.html:6
-#: untitled/123/templates/account/password_reset.html:10
-#: untitled/123/templates/account/password_reset_done.html:6
-#: untitled/123/templates/account/password_reset_done.html:9
-msgid "Password Reset"
-msgstr ""
-
-#: Investions/templates/account/password_reset.html:15
-#: untitled/123/templates/account/password_reset.html:15
-msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
-msgstr ""
-
-#: Investions/templates/account/password_reset.html:20
-#: untitled/123/templates/account/password_reset.html:20
-msgid "Reset My Password"
-msgstr ""
-
-#: Investions/templates/account/password_reset.html:23
-#: untitled/123/templates/account/password_reset.html:23
-msgid "Please contact us if you have any trouble resetting your password."
-msgstr ""
-
-#: Investions/templates/account/password_reset_done.html:15
-#: untitled/123/templates/account/password_reset_done.html:15
-msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
-"within a few minutes."
-msgstr ""
-
-#: Investions/templates/account/password_reset_from_key.html:7
-#: untitled/123/templates/account/password_reset_from_key.html:7
-msgid "Bad Token"
-msgstr ""
-
-#: Investions/templates/account/password_reset_from_key.html:11
-#: untitled/123/templates/account/password_reset_from_key.html:11
-#, python-format
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
-"a>."
-msgstr ""
-
-#: Investions/templates/account/password_reset_from_key.html:17
-#: untitled/123/templates/account/password_reset_from_key.html:17
-msgid "change password"
-msgstr ""
-
-#: Investions/templates/account/password_reset_from_key.html:20
-#: Investions/templates/account/password_reset_from_key_done.html:8
-#: untitled/123/templates/account/password_reset_from_key.html:20
-#: untitled/123/templates/account/password_reset_from_key_done.html:8
-msgid "Your password is now changed."
-msgstr ""
-
-#: Investions/templates/account/password_set.html:5
-#: Investions/templates/account/password_set.html:8
-#: Investions/templates/account/password_set.html:13
-#: untitled/123/templates/account/password_set.html:5
-#: untitled/123/templates/account/password_set.html:8
-#: untitled/123/templates/account/password_set.html:13
-msgid "Set Password"
-msgstr ""
-
-#: Investions/templates/account/signup.html:5
-#: untitled/123/templates/account/signup.html:5
-msgid "Signup"
-msgstr ""
-
-#: Investions/templates/account/signup.html:51
-#: untitled/123/templates/account/signup.html:8
-#: untitled/123/templates/account/signup.html:18
-msgid "Sign Up"
-msgstr ""
-
-#: Investions/templates/account/signup.html:55
-#: untitled/123/templates/account/signup.html:10
-#, python-format
-msgid ""
-"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
-
-#: Investions/templates/account/signup_closed.html:5
-#: Investions/templates/account/signup_closed.html:8
-#: untitled/123/templates/account/signup_closed.html:5
-#: untitled/123/templates/account/signup_closed.html:8
-msgid "Sign Up Closed"
-msgstr ""
-
-#: Investions/templates/account/signup_closed.html:10
-#: untitled/123/templates/account/signup_closed.html:10
-msgid "We are sorry, but the sign up is currently closed."
-msgstr ""
-
-#: Investions/templates/account/snippets/already_logged_in.html:5
-#: untitled/123/templates/account/snippets/already_logged_in.html:5
-msgid "Note"
-msgstr ""
-
-#: Investions/templates/account/snippets/already_logged_in.html:5
-#: untitled/123/templates/account/snippets/already_logged_in.html:5
-#, python-format
-msgid "you are already logged in as %(user_display)s."
-msgstr ""
-
-#: Investions/templates/account/verification_sent.html:5
-#: Investions/templates/account/verification_sent.html:8
-#: Investions/templates/account/verified_email_required.html:5
-#: Investions/templates/account/verified_email_required.html:8
-#: untitled/123/templates/account/verification_sent.html:5
-#: untitled/123/templates/account/verification_sent.html:8
-#: untitled/123/templates/account/verified_email_required.html:5
-#: untitled/123/templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
-msgstr ""
-
-#: Investions/templates/account/verification_sent.html:10
-#: untitled/123/templates/account/verification_sent.html:10
-msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
-"finalize the signup process. Please contact us if you do not receive it "
-"within a few minutes."
-msgstr ""
-
-#: Investions/templates/account/verified_email_required.html:12
-#: untitled/123/templates/account/verified_email_required.html:12
-msgid ""
-"This part of the site requires us to verify that\n"
-"you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
-msgstr ""
-
-#: Investions/templates/account/verified_email_required.html:16
-#: untitled/123/templates/account/verified_email_required.html:16
-msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
-"contact us if you do not receive it within a few minutes."
-msgstr ""
-
-#: Investions/templates/account/verified_email_required.html:20
-#: untitled/123/templates/account/verified_email_required.html:20
-#, python-format
-msgid ""
-"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
-"mail address</a>."
-msgstr ""
-
-#: Investions/templates/admin/search_form.html:7
-msgid "Search"
-msgstr ""
-
-#: Investions/templates/admin/search_form.html:9
-#, python-format
-msgid "%(counter)s result"
-msgid_plural "%(counter)s results"
-msgstr[0] ""
-msgstr[1] ""
-
-#: Investions/templates/admin/search_form.html:9
-#, python-format
-msgid "%(full_result_count)s total"
-msgstr ""
-
-#: Investions/templates/admin/search_form.html:9
-msgid "Show all"
-msgstr ""
-
-#: Investions/templates/balance.html:3
-msgid "Пополнить баланс"
-msgstr "Cash In"
-
-#: Investions/templates/balance.html:8 Investions/templates/cash_in.html:16
-msgid "Сумма пополнения"
+#: django_freekassa/models.py:19 templates/referal.html:24
+msgid "Amount"
 msgstr "Amount"
 
-#: Investions/templates/balance.html:11
-msgid "Пополнить"
-msgstr "Cash In"
+#: django_freekassa/models.py:20
+msgid "Transact Date"
+msgstr "Transact Date"
 
-#: Investions/templates/base.html:49
-msgid "Главная"
-msgstr "Home"
+#: django_freekassa/models.py:21
+msgid "Success"
+msgstr "Success"
 
-#: Investions/templates/base.html:55 Investions/templates/faq.html:2
-#: Investions/templates/faq.html:9
-msgid "FAQ"
-msgstr ""
-
-#: Investions/templates/base.html:58 Investions/templates/rules.html:2
-msgid "Правила"
-msgstr "Rules"
-
-#: Investions/templates/base.html:61
-msgid "Контакты"
-msgstr "Contacts"
-
-#: Investions/templates/base.html:83
-msgid "Личный Кабинет"
-msgstr "Personal Area"
-
-#: Investions/templates/base.html:85
-msgid "Выйти"
-msgstr "Sign Out"
-
-#: Investions/templates/base.html:90
-msgid "Войти"
-msgstr "Sign In"
-
-#: Investions/templates/base.html:133
-msgid "Casino Investment © 2018 Все права защищены"
-msgstr "Casino Investment © 2018 All Rights Reserved"
-
-#: Investions/templates/cash_in.html:2 Investions/templates/cash_in.html:3
-#: Investions/templates/plugins/dashnav.html:3
-#: Investions/templates/plugins/dashnav.html:4
-msgid "Cash In"
-msgstr ""
-
-#: Investions/templates/cash_in.html:12
-msgid "funds in"
-msgstr ""
-
-#: Investions/templates/cash_in.html:52 Investions/templates/cash_out.html:46
-msgid "Make Payment"
-msgstr ""
-
-#: Investions/templates/cash_out.html:2 Investions/templates/cash_out.html:3
+#: django_freekassa/models.py:34 templates/cash_out.html:2
+#: templates/cash_out.html:3
 msgid "Withdrawal"
-msgstr ""
-
-#: Investions/templates/cash_out.html:10
-msgid "funds out"
-msgstr ""
-
-#: Investions/templates/cash_out.html:23
-msgid "Your Card Number or BTC wallet address"
-msgstr ""
-
-#: Investions/templates/contact.html:2
-msgid "Связаться с нами"
-msgstr "Contact Us"
-
-#: Investions/templates/contact.html:9
-msgid "Contact Us"
-msgstr ""
-
-#: Investions/templates/contact.html:25
-msgid "Name"
-msgstr ""
-
-#: Investions/templates/contact.html:36
-msgid "Send"
-msgstr ""
-
-#: Investions/templates/faq.html:29
-msgid "What is Casino Investment?"
-msgstr ""
-
-#: Investions/templates/faq.html:37
-msgid ""
-"Casino Investment is an online platform created by Casino Investment\n"
-"                                                Organization. Adjustable "
-"United\n"
-"                                                Kingdom Company House "
-"Authority located at Kensington Gardens, London W8\n"
-"                                                4PX."
-msgstr ""
-
-#: Investions/templates/faq.html:52
-msgid "Who manages an investment portfolio?"
-msgstr ""
-
-#: Investions/templates/faq.html:60
-msgid ""
-"All funds invested in Casino Investment managed by a team of professional\n"
-"                                                investment\n"
-"                                                managers collected "
-"specifically for this purpose by the Directorate\n"
-"                                                Casino Investment\n"
-"                                                Company."
-msgstr ""
-
-#: Investions/templates/faq.html:76
-msgid "How to earn Casino Investment?"
-msgstr ""
-
-#: Investions/templates/faq.html:85
-msgid ""
-"The main activity of the company is considered to be investment in the\n"
-"                                                gambling\n"
-"                                                industry, investing in "
-"startups, casinos and lotteries. But we must not\n"
-"                                                forget about the additional "
-"trading\n"
-"                                                card Casino Investment."
-msgstr ""
-
-#: Investions/templates/faq.html:101
-msgid "What do I need to do to become a customer Casino Investment?"
-msgstr ""
-
-#: Investions/templates/faq.html:109
-msgid ""
-"To become an investor meters need to pass a simple registration.\n"
-"                                                Registration will not take "
-"you long after you register, you will get the\n"
-"                                                right to invest\n"
-"                                                in the company Casino "
-"Investment. Please\n"
-"                                                note that by agreeing to the "
-"rules you agree that you are over 18 and\n"
-"                                                you do not violate\n"
-"                                                your country's laws."
-msgstr ""
-
-#: Investions/templates/faq.html:127
-msgid "How many accounts can I open in your program?"
-msgstr ""
-
-#: Investions/templates/faq.html:135
-msgid "Casino Investment rules allow the use of not more than one account."
-msgstr ""
-
-#: Investions/templates/faq.html:147
-msgid "How can I access my account?"
-msgstr ""
-
-#: Investions/templates/faq.html:155
-msgid ""
-"If you are a registered user of Casino Investment, please click on the\n"
-"                                                \"Login\" button at\n"
-"                                                the top of the site, enter "
-"your username and password in the appropriate\n"
-"                                                fields and\n"
-"                                                click \"Login\" button. You "
-"will be\n"
-"                                                redirected to your account "
-"automatically as soon as you make the above\n"
-"                                                listed. If you have not "
-"registered yet,\n"
-"                                                please register."
-msgstr ""
-
-#: Investions/templates/faq.html:174
-msgid "What to do immediately after the access to the personal account?"
-msgstr ""
-
-#: Investions/templates/faq.html:182
-msgid ""
-"After gaining access to your personal account, we recommend that you\n"
-"                                                familiarize\n"
-"                                                yourself with the "
-"functionality, you examine the proposed investment\n"
-"                                                plan. Enter the data of your "
-"electronic purses, so that\n"
-"                                                the program could send you "
-"to profit. Carefully\n"
-"                                                include your correct their "
-"data to send funds to your account."
-msgstr ""
-
-#: Investions/templates/faq.html:199
-msgid "How can I change my personal information in my account?"
-msgstr ""
-
-#: Investions/templates/faq.html:207
-msgid ""
-"Sign into your account and click \"Account\n"
-"                                                settings\" To go to a page "
-"with personal information, where\n"
-"                                                you can change your data. "
-"Save the changes\n"
-"                                                you have entered all the "
-"required data."
-msgstr ""
-
-#: Investions/templates/faq.html:222
-msgid ""
-"What should I do if I can not log into my account because I forgot my "
-"password?"
-msgstr ""
-
-#: Investions/templates/faq.html:229
-msgid ""
-"You can use our password reminder that will be sent to the address\n"
-"                                                provided during\n"
-"                                                registration, containing "
-"detailed instructions and password reset /\n"
-"                                                change form. If you do not "
-"receive the email, please contact us\n"
-"                                                through the support."
-msgstr ""
-
-#: Investions/templates/faq.html:245
-msgid ""
-"I do not have to log in to registered account. What could cause this problem?"
-msgstr ""
-
-#: Investions/templates/faq.html:252
-msgid ""
-"Sometimes these kinds of problems are caused by errors in your web\n"
-"                                                browser. No reason to worry, "
-"you just have to wait a few\n"
-"                                                minutes and then try to log "
-"in again. Also,\n"
-"                                                you need to clear the cache "
-"of your Web browser. If the problem\n"
-"                                                persists, please contact us "
-"through\n"
-"                                                the support."
-msgstr ""
-
-#: Investions/templates/faq.html:269
-msgid "How secure is your website and my account information?"
-msgstr ""
-
-#: Investions/templates/faq.html:277
-msgid ""
-"We have a wide range of security measures to protect your account. Our\n"
-"                                                site is protected from DDoS "
-"attacks, all data\n"
-"                                                is encrypted EV SSL, we use "
-"the same license script, best antivirus\n"
-"                                                software monitors a\n"
-"                                                site's security every second "
-"24/7."
-msgstr ""
-
-#: Investions/templates/faq.html:293
-msgid "Which e-currencies do you accept?"
-msgstr ""
-
-#: Investions/templates/faq.html:300
-msgid ""
-"For your convenience, we accept: Perfect Money,\n"
-"                                Payeer, Bitcoin, Etherium, Qiwi, AdvCash, "
-"Yandex Money, DASH, DOGE, LITECOIN"
-msgstr ""
-
-#: Investions/templates/faq.html:313
-msgid "Can I put a few deposits at the same time?"
-msgstr ""
-
-#: Investions/templates/faq.html:320
-msgid ""
-"Yes, you can have an unlimited number of deposits,\n"
-"                                            but each of them will be handled "
-"separately."
-msgstr ""
-
-#: Investions/templates/faq.html:333
-msgid ""
-"After I make a withdrawal request, when credited to my e-wallet will be done?"
-msgstr ""
-
-#: Investions/templates/faq.html:340
-msgid ""
-"All requests for withdrawal are processed automatically and credited to your "
-"electronic purse is made instantly."
-msgstr ""
-
-#: Investions/templates/history.html:2 Investions/templates/history.html:3
-msgid "History"
-msgstr ""
-
-#: Investions/templates/index.html:2
-msgid "Home"
-msgstr ""
-
-#: Investions/templates/index.html:18
-msgid "Новая жизнь!"
-msgstr "New Life!"
-
-#: Investions/templates/index.html:23
-msgid "Casino Investment"
-msgstr ""
-
-#: Investions/templates/index.html:27
-msgid "Самый простой способ"
-msgstr "the Easiest way"
-
-#: Investions/templates/index.html:31
-msgid "инвестировать деньги"
-msgstr "to Invest money"
-
-#: Investions/templates/index.html:35
-msgid "когда-либо существовавший"
-msgstr "you've ever seen"
-
-#: Investions/templates/index.html:42
-msgid "Легко и Надежно"
-msgstr "Easy & Reliably"
-
-#: Investions/templates/index.html:46
-msgid "Создайте депозит"
-msgstr "Create your deposit"
-
-#: Investions/templates/index.html:50
-msgid "И заберите деньги"
-msgstr "And get your money"
-
-#: Investions/templates/index.html:72
-msgid "Не испытывай удачу"
-msgstr "Don't Try Your Luck"
-
-#: Investions/templates/index.html:72
-msgid "Контроллируй Ее"
-msgstr "Control It"
-
-#: Investions/templates/index.html:85
-msgid "Simple and fast <br> process."
-msgstr ""
-
-#: Investions/templates/index.html:89
-msgid ""
-"Никакой возни, никаких ожиданий. Быстрый и интуитивно\n"
-"                            понятный процесс инвестирования разработан "
-"специально, чтобы вы могли приделять больше\n"
-"                            внимания другим задачам."
-msgstr "No fuss, no expectations. Quick and intuitive \n"
-"clear investment process developed"
-"specially so you can attach more \n"
-"attention to other tasks."
-
-#: Investions/templates/index.html:104
-msgid "Надежная <br> защита"
-msgstr "Reliable <br> protection"
-
-#: Investions/templates/index.html:108
-msgid ""
-" Инновационные современные технологии безопасности\n"
-"                            гарантируют надежность и полную сохранность всех "
-"ваших вложений "
-msgstr "Innovative modern security technology \n"
-"guarantee the reliability and complete safety of all"
-"your investment"
-
-#: Investions/templates/index.html:122
-msgid "Многоуровневый <br> Бизнес"
-msgstr "Multilevel <br> Business"
-
-#: Investions/templates/index.html:126
-msgid ""
-" Casino Investment обеспечивает эффективную\n"
-"                            диверсификацию капитала между проектами и "
-"стартапами, что гарантирует стабильный и высокий\n"
-"                            уровень прибыли"
-msgstr "Casino Investment provides efficient \n"
-"capital diversification between projects and"
-"startups that guarantees stable and high \n"
-"profit level"
-
-#: Investions/templates/index.html:141
-msgid " Профессиональный<br> Маркетинг"
-msgstr "Professional <br> Marketing"
-
-#: Investions/templates/index.html:144
-msgid ""
-"Маркетологи Casino Investment одни из самых лучших\n"
-"                            специалистов в мире и имеют за спиной огромный "
-"опыт работы в даной\n"
-"                            области "
-msgstr "Casino Investment Marketers are one of the best \n"
-"specialists in the world and have a huge behind"
-"Dana Experience \n"
-"areas"
-
-#: Investions/templates/index.html:167
-msgid ""
-"\n"
-"                            <i class=\"h5\">Хотите зарабатывать на казино, "
-"но не хотите рисковать?</i><br> Тогда вы пришли\n"
-"                            в нужное место."
-msgstr "\n"
-"<i class = \" h5 \"> Want to make money at the casino,"
-"but you don't want to risk it? </i> <br> Then you came \n"
-"in the right place."
-
-#: Investions/templates/index.html:170
-msgid "\n"
-"                            <p><i>Casino Investment</i> это уникальная "
-"платформа позволяющая абсолютно любому человеку\n"
-"                                зарабатывать стабильную, высокую прибыль на "
-"казино не испытывая судьбу. </p>\n"
-"                            <p> Инвестируя в <i>Casino Investment</i>, вы "
-"становитесь частью огромной семьи,\n"
-"                                совладельцем сети казино и лотереи.\n"
-"                                Наша команда не просто инвестирует за вас в "
-"нужный проект, но и исключит риски с помощью\n"
-"                                лучших трейдеров на бирже. </p>\n"
-"                            <p> Получайте финансовую независимость и "
-"стабильный безопасный доход вместе с <i>Casino\n"
-"                                Investment</i>. </p>"
-"                        "
-msgstr "\n"
-"<p><i> Casino Investment </i> is unique."
-"a platform that allows absolutely anyone \n"
-"earn a stable, high profit on"
-"the casino is not tempting fate. </p> \n"
-"<p> By investing in <i> Casino Investment </i>, you"
-"become part of a huge family, \n"
-"co-owner of casino and lottery networks. \n"
-"Our team is not just investing for you in"
-"the desired project, but also eliminates the risks using \n"
-"The best traders on the exchange. </p> \n"
-"<p> Get financial independence and"
-"stable safe income with <i> Casino \n"
-"Investment </i>. </P>"
-
-#: Investions/templates/index.html:182
-msgid "Подробнее"
-msgstr "Read more"
-
-#: Investions/templates/index.html:190
-msgid "Начать зарабатывать"
-msgstr "Start earning"
-
-#: Investions/templates/index.html:210
-msgid "Готовы к изменениям в лучшую сторону?"
-msgstr "Ready to change for the better?"
-
-#: Investions/templates/index.html:218
-msgid "Все максимально просто"
-msgstr "It's as simple as possible"
-
-#: Investions/templates/index.html:219
-msgid "Чтобы начать получать прибыль, нужно всего 4 шага:"
-msgstr "To start making profits, you need only 4 steps:"
-
-#: Investions/templates/index.html:232
-msgid "Регистрация"
-msgstr "Registration"
-
-#: Investions/templates/index.html:233
-msgid "Создайте новый аккаунт за пару кликов"
-msgstr "Create a new account with a couple of clicks"
-
-#: Investions/templates/index.html:247
-msgid "Пополнение счета"
-msgstr "Deposit money"
-
-#: Investions/templates/index.html:248
-msgid "Внесите деньги на личный кошелек"
-msgstr "Deposit money into your personal wallet"
-
-#: Investions/templates/index.html:262
-msgid "Создание контракта"
-msgstr "Create the contract"
-
-#: Investions/templates/index.html:263
-msgid "Выберите тариф, укажите сумму и подтвердите выбор"
-msgstr "Select a rate, specify the amount and confirm"
-
-#: Investions/templates/index.html:277
-msgid "Получение прибыли"
-msgstr "Receiving a profit"
-
-#: Investions/templates/index.html:278
-msgid "По истечению строка заберите деньги"
-msgstr "At the expiration of the line take your money"
-
-#: Investions/templates/index.html:288
-msgid "Начать Зарабатывать"
-msgstr "Start earning"
-
-#: Investions/templates/index.html:304
-msgid "Тарифы"
-msgstr "Plans"
-
-#: Investions/templates/index.html:318
-msgid " в день"
-msgstr "day"
-
-#: Investions/templates/index.html:322
-msgid "Дней"
-msgstr "Days"
-
-#: Investions/templates/index.html:324
-msgid "Месячная ставка"
-msgstr "Annual Rate"
-
-#: Investions/templates/index.html:332
-msgid "Ввод:"
-msgstr "Payin:"
-
-#: Investions/templates/index.html:335
-msgid "Выплата:"
-msgstr "Payout:"
-
-#: Investions/templates/index.html:360
-msgid "Начать Сейчас"
-msgstr "Start Now"
-
-#: Investions/templates/index.html:385
-msgid "Готовы изменить свою жизнь?"
-msgstr "Ready to change your life?"
-
-#: Investions/templates/index.html:393
-msgid "Присоединиться"
-msgstr "Join Us"
-
-#: Investions/templates/new_contract.html:2
-#: Investions/templates/new_contract.html:3
-#: Investions/templates/new_contract.html:10
-#: Investions/templates/plugins/dashnav.html:9
-#: Investions/templates/plugins/dashnav.html:10
-msgid "New Deposit"
-msgstr ""
-
-#: Investions/templates/new_contract.html:48
-msgid "Create Contract"
-msgstr ""
-
-#: Investions/templates/overview.html:2 Investions/templates/overview.html:9
-#: Investions/templates/plugins/dashnav.html:15
-#: Investions/templates/plugins/dashnav.html:16
-msgid "Dashboard"
-msgstr ""
-
-#: Investions/templates/overview.html:22
-msgid "Your current balance: "
-msgstr ""
-
-#: Investions/templates/overview.html:38
-msgid "out"
-msgstr ""
-
-#: Investions/templates/overview.html:44
-msgid "Days"
-msgstr ""
-
-#: Investions/templates/overview.html:45
-msgid "Annual Rate"
-msgstr ""
-
-#: Investions/templates/overview.html:46
-msgid "Contract"
-msgstr ""
-
-#: Investions/templates/overview.html:52
-msgid "d"
-msgstr ""
-
-#: Investions/templates/overview.html:55
-msgid "h"
-msgstr ""
-
-#: Investions/templates/overview.html:58
-msgid "m"
-msgstr ""
-
-#: Investions/templates/overview.html:61
-msgid "s"
-msgstr ""
-
-#: Investions/templates/overview.html:96
-msgid "Header"
-msgstr ""
-
-#: Investions/templates/overview.html:115
-msgid "Balance History"
-msgstr ""
-
-#: Investions/templates/overview.html:122
-msgid "From"
-msgstr ""
-
-#: Investions/templates/overview.html:123
-msgid "To"
-msgstr ""
-
-#: Investions/templates/overview.html:125
-msgid "Rate"
-msgstr ""
-
-#: Investions/templates/overview.html:126
-msgid "Payout"
-msgstr ""
-
-#: Investions/templates/overview.html:127
-msgid "ID"
-msgstr ""
-
-#: Investions/templates/plugins/dashnav.html:6
-#: Investions/templates/plugins/dashnav.html:7
-msgid "Cash Out"
-msgstr ""
-
-#: Investions/templates/plugins/dashnav.html:12
-#: Investions/templates/plugins/dashnav.html:13
-msgid "Referals"
-msgstr ""
-
-#: Investions/templates/plugins/language_chooser.html:5
-#: untitled/123/templates/plugins/language_chooser.html:5
-msgid "Change to language:"
-msgstr ""
-
-#: Investions/templates/referal.html:2 Investions/templates/referal.html:3
-#: Investions/templates/referal.html:10 Investions/templates/referal.html:22
-msgid "Referal"
-msgstr ""
-
-#: Investions/templates/referal.html:14
-msgid "Your referal link:"
-msgstr ""
-
-#: Investions/templates/referal.html:23
-msgid "Date"
-msgstr ""
-
-#: Investions/templates/referal.html:24
-msgid "Amount"
-msgstr ""
-
-#: Investions/templates/rules.html:9
-msgid "TERMS AND AGREEMENTS"
-msgstr ""
-
-#: Investions/templates/rules.html:19
-msgid ""
-"\n"
-"                            <p class=\"card-text text-white\">Using Casino "
-"Investment program you agree to the terms of use, privacy policies, as well "
-"as the principles and rules of use, even if you have not read them. If you "
-"do not agree with any of these contracts, you should not use our web-site.</"
-"p>\n"
-"                            <p class=\"card-text text-white\">Casino "
-"Investment reserves the right to amend and / or modify any of the rules and "
-"conditions of use. Casino Investment reserves the right to change this "
-"agreement from time to time, by notice in a few days all users of a web-"
-"site. Your subsequent use of the Site constitutes your acceptance of such "
-"changes and / or additions. It is recommended to read the terms of use and "
-"privacy policy as often as possible.</p>\n"
-"                            <hr>\n"
-"                            <h6 class=\"font-weight-bold yellow-text text-"
-"left well\">COPYRIGHT</h6>\n"
-"                            <p class=\"card-text text-white\">Design, text, "
-"graphics, logos, button icons, images, audio and video content, their "
-"selection and arrangement, and all software on the website are protected by "
-"copyright (c) 2018 Casino Investment .</p>\n"
-"                            <p class=\"card-text text-white\">Compilation "
-"(collection, arrangement, and assembly) of all content on the site is the "
-"exclusive property of Casino Investment (the C) and is protected by "
-"international copyright laws.</p>\n"
-"                            <hr>\n"
-"                            <h6 class=\"font-weight-bold yellow-text text-"
-"left well\">PROTECTION AGAINST FRAUD</h6>\n"
-"                            <p class=\"card-text text-white\">As part of our "
-"acceptance of payment processing procedures, the company's specialists "
-"review all transactions for fraud or other unauthorized or illegal "
-"activities. The Company reserves the right to refuse to process a payment "
-"because of suspicions of fraud, unauthorized or illegal activities. Such "
-"measures have been taken in order to protect our customers as well as "
-"companies from fraud or other illegal activities.</p>\n"
-"                            <p class=\"card-text text-white\">The company "
-"Casino Investment is not responsible for any loss due to sharing passwords "
-"or identity theft. It is strongly recommended to ensure maximum security of "
-"your personal data needed for authentication and access to the personal "
-"account and settings. Do not give your personal information to third parties."
-"</p>\n"
-"                            <hr>\n"
-"                            <h6 class=\"font-weight-bold yellow-text text-"
-"left well\">GENERAL PROVISIONS</h6>\n"
-"                            <p class=\"card-text text-white\">By agreeing to "
-"the Terms of Use, you automatically confirm that you are of legal age in the "
-"country of which you are using this site and do not violate any laws of your "
-"state. All materials and information provided by the Casino Investment "
-"intended to be used only for personal, educational or informational purposes "
-"only.</p>\n"
-"                            <p class=\"card-text text-white\">You assume the "
-"obligation to pay tax on the profits, levied according to the legislation of "
-"the United Kingdom. Profits earned in the territory of that State, is liable "
-"to tax, irrespective of the place of residence of the formal, the actual "
-"residence of the person or the country in which the company is registered.</"
-"p>\n"
-"                            <p class=\"card-text text-white\">Any financial "
-"transactions, designed according to the contract are definitive and "
-"irreversible. In order to prevent fraud and cheating, it is expressly "
-"prohibited the creation of joint payment system for different users. If such "
-"abuses are discovered, the company Casino Investment reserves the right to "
-"terminate all affiliate of charge and limited functionality for such "
-"accounts and accounts.</p>\n"
-"                            <hr>\n"
-"                            <h6 class=\"font-weight-bold amber-text\">Any "
-"breach of this agreement as a whole or individual items can result in "
-"permanent account suspension.</h6>\n"
-"                        "
-msgstr ""
-
-#: Investions/templates/snippets/ajax_registration.html:19
-#: untitled/123/templates/snippets/ajax_registration.html:19
-msgid "Login"
-msgstr ""
-
-#: Investions/templates/snippets/ajax_registration.html:23
-#: untitled/123/templates/snippets/ajax_registration.html:23
-msgid "Register"
-msgstr ""
-
-#: Investions/views/static_pages.py:90
-msgid "Not enouth money"
-msgstr ""
+msgstr "Withdrawal"
+
+#: django_freekassa/models.py:35
+msgid "Withdrawals"
+msgstr "Withdrawals"
+
+#: django_freekassa/models.py:39
+msgid "Opened"
+msgstr "Opened"
+
+#: django_freekassa/models.py:40
+msgid "Payed"
+msgstr "Payed"
+
+#: django_freekassa/models.py:41
+msgid "Canceled"
+msgstr "Canceled"
+
+#: django_freekassa/models.py:42
+msgid "Error"
+msgstr "Error"
+
+#: django_freekassa/models.py:52
+msgid "Invalid amount, allowed sum for transaction is 5000$"
+msgstr "Invalid amount, allowed sum for transaction is 2000$"
+
+#: django_freekassa/models.py:58
+msgid "Created at:"
+msgstr "Created at:"
+
+#: django_freekassa/models.py:65
+msgid "Comment"
+msgstr "Comment"
+
+#: django_freekassa/models.py:66
+msgid "Explanation for the transaction"
+msgstr "Explanation for the transaction"
+
+#: django_freekassa/views.py:94
+msgid "Bad sign token, please contact the support if you don't got the money"
+msgstr "Bad sign token, please contact the support if you don't got the money"
+
+#: django_freekassa/views.py:97
+msgid "Congratulation! The payment was successful."
+msgstr "Congratulation! The payment was successful."
+
+#: django_freekassa/views.py:104
+msgid "The payment unsuccessful, please try again, or contact the support."
+msgstr "The payment unsuccessful, please try again, or contact the support."
 
 #: env/lib/python3.6/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #: env/lib/python3.6/site-packages/django/contrib/sitemaps/apps.py:7
 msgid "Site Maps"
-msgstr ""
+msgstr "Site Maps"
 
 #: env/lib/python3.6/site-packages/django/contrib/staticfiles/apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Static Files"
 
 #: env/lib/python3.6/site-packages/django/contrib/syndication/apps.py:7
 msgid "Syndication"
-msgstr ""
+msgstr "Syndication"
 
 #: env/lib/python3.6/site-packages/django/core/paginator.py:45
 msgid "That page number is not an integer"
@@ -2437,6 +1263,11 @@ msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
 msgstr ""
 
+#: env/lib/python3.6/site-packages/django/utils/text.py:233
+#: templates/account/login.html:74
+msgid "or"
+msgstr ""
+
 #. Translators: This string is used as a separator between list elements
 #: env/lib/python3.6/site-packages/django/utils/text.py:252
 #: env/lib/python3.6/site-packages/django/utils/timesince.py:83
@@ -2659,14 +1490,1474 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
+#: env/lib/python3.6/site-packages/jsonfield/fields.py:34
+#: env/lib/python3.6/site-packages/jsonfield/fields.py:46
+#: env/lib/python3.6/site-packages/jsonfield/fields.py:85
+msgid "Enter valid JSON"
+msgstr ""
+
 #: env/lib/python3.6/site-packages/pinax/referrals/apps.py:8
 msgid "Pinax Referrals"
 msgstr ""
 
-#: untitled/settings.py:94
-msgid "English"
+#: templates/about.html:2 templates/index.html:163
+msgid "О компании"
+msgstr "About Us"
+
+#: templates/about.html:9
+msgid "О КОМПАНИИ"
+msgstr "About Company"
+
+#: templates/about.html:20
+msgid ""
+"Слава, азарт, желание разбогатеть эти факторы являются двигателем бизнеса "
+"уже несколько сотен лет. Миллиарды долларов ежедневно крутятся внутри "
+"игорного бизнеса, всевозможные казино и лотереи привлекают людей своей "
+"игривостью и авантюризмом. Первое казино в Европе было создано в 1638 году в "
+"Венеции, это был игорный дом Ридитто построенный по приказу правительства в "
+"здании церкви, уже тогда множество людей проявляло тщетные попытки "
+"разбогатеть, играя в рулетку."
+msgstr ""
+"Glory, excitement, desire to get rich, these factors are the engine of business"
+"already several hundred years. Billions of dollars revolve daily inside"
+"gambling, all kinds of casinos and lotteries attract people with their"
+"playfulness and adventurism. The first casino in Europe was created in 1638 in"
+"Venice, it was Riditto's gambling house built by order of the government in"
+"the building of the church, even then a lot of people showed vain attempts"
+"get rich playing roulette."
+
+#: templates/about.html:21
+msgid ""
+"Возможно даже и вы пробовали свою удачу в казино и скорей всего у вас ничего "
+"из этого не вышло. В 2012 году на встрече в отеле SKYLOFT в Лас Вегас "
+"владельцы трех крупных казино заключили альянс по созданию on-line игорной "
+"индустрии. Суть этого альянса заключалась в создании целой сети on-line "
+"казино и лотереи."
+msgstr ""
+"Maybe you even tried your luck at the casino and most likely you have nothing"
+"it didn't work out. In 2012, at a meeting at the SKYLOFT hotel in Las Vegas"
+"owners of three large casinos have entered into an alliance to create on-line gambling"
+"industry. The essence of this alliance was to create a whole network on-line"
+"casinos and lotteries."
+
+#: templates/about.html:22
+#, python-format
+msgid ""
+"Casino Investment являются совладельцами этого бизнеса с 2015 года имея 24%% "
+"акций альянса. Наша роль в альянсе привлечение инвестиций для создания "
+"большего количества казино и продвижения их на рынке."
+msgstr ""
+"Casino Investment are co-owners of this business since 2015 with 24 %%"
+"Alliance shares. Our role in the alliance is to attract investment to create"
+"more casinos and promoting them on the market."
+
+#: templates/about.html:23
+msgid ""
+"С данной миссией, мы создали площадку Casino Investment, первая в мире "
+"мульти-маркетинговая финансовая платформа, состоящая из трех основных "
+"действий."
+msgstr ""
+"With this mission, we have created a Casino Investment platform, the first in the world"
+"a multi-marketing financial platform consisting of three cores"
+"action."
+
+#: templates/about.html:24
+msgid ""
+"Привлечение инвестиций, Обеспечение диверсификации, Открытие и продвижение "
+"проектов"
+msgstr ""
+"Attracting investments, Ensuring diversification, Opening and promotion"
+"projects"
+
+#: templates/about.html:25
+msgid ""
+"Финансовые менеджеры Casino Investment создали систему, позволяющую "
+"инвестировать без рисков. Данная система уникальна и крайне проста."
+msgstr ""
+"Casino Investment Manager financials have created a system that allows"
+"invest without risk. This system is unique and extremely simple."
+
+#: templates/about.html:26
+#, python-format
+msgid ""
+"Инвесторы, вкладывая деньги получают ежедневную прибыль, наши специалисты "
+"распределяют инвестиционный фонд по проектам, 58%% идут в уже работающие "
+"проекты для увеличения фонда Джек пота и привлечения большего количества "
+"игроков, 12%% инвестиций распределятся между проектами находящихся на "
+"финальной стадии подготовки и выпуску на рынок, 30%% фонда распределяются "
+"между стартапами по мере их актуальности."
+msgstr ""
+"Investors, by investing money, receive daily profit, our specialists"
+"they distribute the investment fund by projects, 58 %% go to the already working ones"
+"Projects to increase the jackpot fund and attract more"
+"players, 12%% of the investment will be distributed among the projects located on"
+"final stage of preparation and release to the market, 30 %% of the fund is distributed"
+"between startups as they become relevant."
+
+#: templates/about.html:27
+#, python-format
+msgid ""
+"Что бы исключить все риски, Casino Investment ежедневно получает часть "
+"прибыли от проектов для прокрутки на бирже. Наши трейдеры увеличивают "
+"прибыль на 35%% после чего часть прибыли мы выплачиваем нашим инвесторам."
+msgstr ""
+"To eliminate all risks, Casino Investment gets a part every day"
+"profits from projects for scrolling on the stock exchange. Our traders are increasing"
+"35 %% profit after which we pay part of the profits to our investors."
+
+#: templates/about.html:29
+msgid ""
+"Таким образом Casino Investment обеспечивает своим инвесторам качественный "
+"инвестиционный продукт, без издержек и рисков."
+msgstr ""
+"Thus, Casino Investment provides its investors with quality"
+"investment product, without cost and risk."
+
+#: templates/account/account_inactive.html:5
+#: templates/account/account_inactive.html:8
+msgid "Account Inactive"
+msgstr "Account Inactive"
+
+#: templates/account/account_inactive.html:10
+msgid "This account is inactive."
+msgstr "This account is inactive."
+
+#: templates/account/email.html:5
+msgid "Account"
+msgstr "Account"
+
+#: templates/account/email.html:8
+msgid "E-mail Addresses"
+msgstr "E-mail Addresses"
+
+#: templates/account/email.html:10
+msgid "The following e-mail addresses are associated with your account:"
+msgstr "The following e-mail addresses are associated with your account:"
+
+#: templates/account/email.html:24
+msgid "Verified"
+msgstr "Verified"
+
+#: templates/account/email.html:26
+msgid "Unverified"
+msgstr "Unverified"
+
+#: templates/account/email.html:28
+msgid "Primary"
+msgstr "Primary"
+
+#: templates/account/email.html:34
+msgid "Make Primary"
+msgstr "Make Primary"
+
+#: templates/account/email.html:35
+msgid "Re-send Verification"
+msgstr "Re-send Verification"
+
+#: templates/account/email.html:36
+msgid "Remove"
+msgstr "Remove"
+
+#: templates/account/email.html:43
+msgid "Warning:"
+msgstr "Warning:"
+
+#: templates/account/email.html:43
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+
+#: templates/account/email.html:48
+msgid "Add E-mail Address"
+msgstr "Add E-mail Address"
+
+#: templates/account/email.html:53
+msgid "Add E-mail"
+msgstr "Add E-mail"
+
+#: templates/account/email.html:62
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "Do you really want to remove the selected e-mail address?"
+
+#: templates/account/email/email_confirmation_message.txt:1
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because user %(user_display)s has given yours "
+"as an e-mail address to connect their account.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+msgstr ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because user %(user_display)s has given yours "
+"as an e-mail address to connect their account.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+
+#: templates/account/email/email_confirmation_message.txt:7
+#, python-format
+msgid ""
+"Thank you from %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+"Thank you from %(site_name)s!\n"
+"%(site_domain)s"
+
+#: templates/account/email/email_confirmation_subject.txt:3
+msgid "Please Confirm Your E-mail Address"
+msgstr "Please Confirm Your E-mail Address"
+
+#: templates/account/email/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+
+#: templates/account/email/password_reset_key_message.txt:8
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr "In case you forgot, your username is %(username)s."
+
+#: templates/account/email/password_reset_key_message.txt:10
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+
+#: templates/account/email/password_reset_key_subject.txt:3
+msgid "Password Reset E-mail"
+msgstr "Password Reset E-mail"
+
+#: templates/account/email_confirm.html:6
+#: templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr "Confirm E-mail Address"
+
+#: templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+
+#: templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr "Confirm"
+
+#: templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+
+#: templates/account/login.html:6 templates/account/login.html:59
+msgid "Sign In"
+msgstr "Sign In"
+
+#: templates/account/login.html:39 templates/account/password_reset.html:21
+#: templates/account/signup.html:35
+msgid "Your email"
+msgstr "Your email"
+
+#: templates/account/login.html:45 templates/account/signup.html:40
+msgid "Your password"
+msgstr "Your password"
+
+#: templates/account/login.html:48
+msgid "Forgot Password?"
+msgstr "Forgot Password?"
+
+#: templates/account/login.html:52
+msgid "Remember me"
+msgstr "Remember me"
+
+#: templates/account/login.html:64
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"                    of your existing third party accounts. Or, <a href="
+"\"%(signup_url)s\">sign up</a>\n"
+"                    for a %(site_name)s account and sign in below:"
+msgstr ""
+"Please sign in with one\n"
+"                    of your existing third party accounts. Or, <a href="
+"\"%(signup_url)s\">sign up</a>\n"
+"                    for a %(site_name)s account and sign in below:"
+
+#: templates/account/login.html:81
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"                    <a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+"If you have not created an account yet, then please\n"
+"                    <a href=\"%(signup_url)s\">sign up</a> first."
+
+#: templates/account/logout.html:5 templates/account/logout.html:10
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: templates/account/logout.html:12
+msgid "Are you sure you want to sign out?"
+msgstr "Are you sure you want to sign out?"
+
+#: templates/account/logout.html:20
+msgid "Yes, sign out"
+msgstr "Yes, sign out"
+
+#: templates/account/logout.html:21
+msgid "No, back to cabinet"
+msgstr "No, back to cabinet"
+
+#: templates/account/messages/cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr "You cannot remove your primary e-mail address (%(email)s)."
+
+#: templates/account/messages/email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr "Confirmation e-mail sent to %(email)s."
+
+#: templates/account/messages/email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr "You have confirmed %(email)s."
+
+#: templates/account/messages/email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr "Removed e-mail address %(email)s."
+
+#: templates/account/messages/logged_in.txt:4
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr "Successfully signed in as %(name)s."
+
+#: templates/account/messages/logged_out.txt:2
+msgid "You have signed out."
+msgstr "You have signed out."
+
+#: templates/account/messages/password_changed.txt:2
+msgid "Password successfully changed."
+msgstr "Password successfully changed."
+
+#: templates/account/messages/password_set.txt:2
+msgid "Password successfully set."
+msgstr "Password successfully set."
+
+#: templates/account/messages/primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr "Primary e-mail address set."
+
+#: templates/account/messages/unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr "Your primary e-mail address must be verified."
+
+#: templates/account/password_change.html:5
+#: templates/account/password_change.html:8
+#: templates/account/password_change.html:13
+#: templates/account/password_reset_from_key.html:4
+#: templates/account/password_reset_from_key.html:7
+#: templates/account/password_reset_from_key_done.html:4
+#: templates/account/password_reset_from_key_done.html:7
+msgid "Change Password"
+msgstr "Change Password"
+
+#: templates/account/password_reset.html:6
+#: templates/account/password_reset_done.html:6
+#: templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr "Password Reset"
+
+#: templates/account/password_reset.html:17
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+
+#: templates/account/password_reset.html:24
+msgid "Reset My Password"
+msgstr "Reset My Password"
+
+#: templates/account/password_reset.html:28
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "Please contact us if you have any trouble resetting your password."
+
+#: templates/account/password_reset_done.html:15
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+
+#: templates/account/password_reset_from_key.html:7
+msgid "Bad Token"
+msgstr "Bad Token"
+
+#: templates/account/password_reset_from_key.html:11
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+
+#: templates/account/password_reset_from_key.html:17
+msgid "change password"
+msgstr "change password"
+
+#: templates/account/password_reset_from_key.html:20
+#: templates/account/password_reset_from_key_done.html:8
+msgid "Your password is now changed."
+msgstr "Your password is now changed"
+
+#: templates/account/password_set.html:5 templates/account/password_set.html:8
+#: templates/account/password_set.html:13
+msgid "Set Password"
+msgstr "Set Password"
+
+#: templates/account/signup.html:5
+msgid "Signup"
+msgstr "Signup"
+
+#: templates/account/signup.html:45
+msgid "Confirm the password"
+msgstr "Confirm the password"
+
+#: templates/account/signup.html:51
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: templates/account/signup.html:53
+msgid "By signing up, you agree to our"
+msgstr "By signing up, you agree to our"
+
+#: templates/account/signup.html:53
+msgid "Terms of Use and Privacy Policy"
+msgstr "Terms of Use and Privacy Policy"
+
+#: templates/account/signup.html:55
+msgid "Already have an account? Then please"
+msgstr "Already have an account? Then please"
+
+#: templates/account/signup.html:55
+msgid "sign in"
+msgstr "sign in"
+
+#: templates/account/signup_closed.html:5
+#: templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr "Sign Up Closed"
+
+#: templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "We are sorry, but the sign up is currently closed."
+
+#: templates/account/snippets/already_logged_in.html:5
+msgid "Note"
+msgstr "Note"
+
+#: templates/account/snippets/already_logged_in.html:5
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr "you are already logged in as %(user_display)s."
+
+#: templates/account/verification_sent.html:5
+#: templates/account/verification_sent.html:8
+#: templates/account/verified_email_required.html:5
+#: templates/account/verified_email_required.html:8
+msgid "Verify Your E-mail Address"
+msgstr "Verify Your E-mail Address"
+
+#: templates/account/verification_sent.html:10
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+
+#: templates/account/verified_email_required.html:12
+msgid ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+msgstr ""
+"This part of the site requires us to verify that\n"
+"you are who you claim to be. For this purpose, we require that you\n"
+"verify ownership of your e-mail address. "
+
+#: templates/account/verified_email_required.html:16
+msgid ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+msgstr ""
+"We have sent an e-mail to you for\n"
+"verification. Please click on the link inside this e-mail. Please\n"
+"contact us if you do not receive it within a few minutes."
+
+#: templates/account/verified_email_required.html:20
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+
+#: templates/admin/search_form.html:7
+msgid "Search"
+msgstr "Search"
+
+#: templates/admin/search_form.html:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/search_form.html:9
+#, python-format
+msgid "%(full_result_count)s total"
 msgstr ""
 
-#: untitled/settings.py:95
-msgid "Русский"
+#: templates/admin/search_form.html:9
+msgid "Show all"
 msgstr ""
+
+#: templates/base.html:57
+msgid "Mark all as read"
+msgstr "Mark all as read"
+
+#: templates/base.html:70
+msgid "Личный Кабинет"
+msgstr "Personal Area"
+
+#: templates/base.html:73
+msgid "Выйти"
+msgstr "Sign out"
+
+#: templates/base.html:79
+msgid "Войти"
+msgstr "Sign in"
+
+#: templates/base.html:128
+msgid "Casino Investment © 2018 Все права защищены"
+msgstr "Casino Investment © 2018 All Rights Reserved"
+
+#: templates/cash_in.html:2 templates/cash_in.html:3
+#: templates/plugins/dashnav.html:3 templates/plugins/dashnav.html:4
+msgid "Cash In"
+msgstr "Cash In"
+
+#: templates/cash_in.html:9
+msgid "funds in"
+msgstr "Cash In"
+
+#: templates/cash_in.html:19
+msgid "Сумма пополнения"
+msgstr "Refill amount"
+
+#: templates/cash_in.html:28 templates/cash_out.html:45
+msgid "Make Payment"
+msgstr "Make Payment"
+
+#: templates/cash_out.html:10
+msgid "funds out"
+msgstr "Cash out"
+
+#: templates/contact.html:2
+msgid "Связаться с нами"
+msgstr "Contact Us"
+
+#: templates/contact.html:9
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: templates/contact.html:22
+msgid "Our contacts:"
+msgstr "Our contacts:"
+
+#: templates/contact.html:44
+msgid "Write to us:"
+msgstr "Write to us:"
+
+#: templates/contact.html:52
+msgid "Name"
+msgstr "Name"
+
+#: templates/contact.html:64
+msgid "Send"
+msgstr "Send"
+
+#: templates/faq.html:2 templates/faq.html:9 templates/plugins/menu.html:15
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/faq.html:29
+msgid "What is Casino Investment?"
+msgstr "What is Casino Investment?"
+
+#: templates/faq.html:37
+msgid ""
+"Casino Investment is an online platform created by Casino Investment\n"
+"                                                Organization. Adjustable "
+"United\n"
+"                                                Kingdom Company House "
+"Authority located at Kensington Gardens, London W8\n"
+"                                                4PX."
+msgstr ""
+"Casino Investment is an online platform created by Casino Investment\n"
+"                                                Organization. Adjustable "
+"United\n"
+"                                                Kingdom Company House "
+"Authority located at Kensington Gardens, London W8\n"
+"                                                4PX."
+
+#: templates/faq.html:52
+msgid "Who manages an investment portfolio?"
+msgstr "Who manages an investment portfolio?"
+
+#: templates/faq.html:60
+msgid ""
+"All funds invested in Casino Investment managed by a team of professional\n"
+"                                                investment\n"
+"                                                managers collected "
+"specifically for this purpose by the Directorate\n"
+"                                                Casino Investment\n"
+"                                                Company."
+msgstr ""
+"All funds invested in Casino Investment managed by a team of professional\n"
+"                                                investment\n"
+"                                                managers collected "
+"specifically for this purpose by the Directorate\n"
+"                                                Casino Investment\n"
+"                                                Company."
+
+#: templates/faq.html:76
+msgid "How to earn Casino Investment?"
+msgstr "How to earn Casino Investment?"
+
+#: templates/faq.html:85
+msgid ""
+"The main activity of the company is considered to be investment in the\n"
+"                                                gambling\n"
+"                                                industry, investing in "
+"startups, casinos and lotteries. But we must not\n"
+"                                                forget about the additional "
+"trading\n"
+"                                                card Casino Investment."
+msgstr ""
+"The main activity of the company is considered to be investment in the\n"
+"                                                gambling\n"
+"                                                industry, investing in "
+"startups, casinos and lotteries. But we must not\n"
+"                                                forget about the additional "
+"trading\n"
+"                                                card Casino Investment."
+
+#: templates/faq.html:101
+msgid "What do I need to do to become a customer Casino Investment?"
+msgstr "What do I need to do to become a customer Casino Investment?"
+
+#: templates/faq.html:109
+msgid ""
+"To become an investor meters need to pass a simple registration.\n"
+"                                                Registration will not take "
+"you long after you register, you will get the\n"
+"                                                right to invest\n"
+"                                                in the company Casino "
+"Investment. Please\n"
+"                                                note that by agreeing to the "
+"rules you agree that you are over 18 and\n"
+"                                                you do not violate\n"
+"                                                your country's laws."
+msgstr ""
+"To become an investor meters need to pass a simple registration.\n"
+"                                                Registration will not take "
+"you long after you register, you will get the\n"
+"                                                right to invest\n"
+"                                                in the company Casino "
+"Investment. Please\n"
+"                                                note that by agreeing to the "
+"rules you agree that you are over 18 and\n"
+"                                                you do not violate\n"
+"                                                your country's laws."
+
+#: templates/faq.html:127
+msgid "How many accounts can I open in your program?"
+msgstr "How many accounts can I open in your program?"
+
+#: templates/faq.html:135
+msgid "Casino Investment rules allow the use of not more than one account."
+msgstr "Casino Investment rules allow the use of not more than one account."
+
+#: templates/faq.html:147
+msgid "How can I access my account?"
+msgstr "How can I access my account?"
+
+#: templates/faq.html:155
+msgid ""
+"If you are a registered user of Casino Investment, please click on the\n"
+"                                                \"Login\" button at\n"
+"                                                the top of the site, enter "
+"your username and password in the appropriate\n"
+"                                                fields and\n"
+"                                                click \"Login\" button. You "
+"will be\n"
+"                                                redirected to your account "
+"automatically as soon as you make the above\n"
+"                                                listed. If you have not "
+"registered yet,\n"
+"                                                please register."
+msgstr ""
+"If you are a registered user of Casino Investment, please click on the\n"
+"                                                \"Login\" button at\n"
+"                                                the top of the site, enter "
+"your username and password in the appropriate\n"
+"                                                fields and\n"
+"                                                click \"Login\" button. You "
+"will be\n"
+"                                                redirected to your account "
+"automatically as soon as you make the above\n"
+"                                                listed. If you have not "
+"registered yet,\n"
+"                                                please register."
+
+#: templates/faq.html:174
+msgid "What to do immediately after the access to the personal account?"
+msgstr "What to do immediately after the access to the personal account?"
+
+#: templates/faq.html:182
+msgid ""
+"After gaining access to your personal account, we recommend that you\n"
+"                                                familiarize\n"
+"                                                yourself with the "
+"functionality, you examine the proposed investment\n"
+"                                                plan. Enter the data of your "
+"electronic purses, so that\n"
+"                                                the program could send you "
+"to profit. Carefully\n"
+"                                                include your correct their "
+"data to send funds to your account."
+msgstr ""
+"After gaining access to your personal account, we recommend that you\n"
+"                                                familiarize\n"
+"                                                yourself with the "
+"functionality, you examine the proposed investment\n"
+"                                                plan. Enter the data of your "
+"electronic purses, so that\n"
+"                                                the program could send you "
+"to profit. Carefully\n"
+"                                                include your correct their "
+"data to send funds to your account."
+#: templates/faq.html:199
+msgid "How can I change my personal information in my account?"
+msgstr "How can I change my personal information in my account?"
+
+#: templates/faq.html:207
+msgid ""
+"Sign into your account and click \"Account\n"
+"                                                settings\" To go to a page "
+"with personal information, where\n"
+"                                                you can change your data. "
+"Save the changes\n"
+"                                                you have entered all the "
+"required data."
+msgstr ""
+"Sign into your account and click \"Account\n"
+"                                                settings\" To go to a page "
+"with personal information, where\n"
+"                                                you can change your data. "
+"Save the changes\n"
+"                                                you have entered all the "
+"required data."
+
+#: templates/faq.html:222
+msgid ""
+"What should I do if I can not log into my account because I forgot my "
+"password?"
+msgstr ""
+"What should I do if I can not log into my account because I forgot my "
+"password?"
+#: templates/faq.html:229
+msgid ""
+"You can use our password reminder that will be sent to the address\n"
+"                                                provided during\n"
+"                                                registration, containing "
+"detailed instructions and password reset /\n"
+"                                                change form. If you do not "
+"receive the email, please contact us\n"
+"                                                through the support."
+msgstr ""
+"You can use our password reminder that will be sent to the address\n"
+"                                                provided during\n"
+"                                                registration, containing "
+"detailed instructions and password reset /\n"
+"                                                change form. If you do not "
+"receive the email, please contact us\n"
+"                                                through the support."
+
+#: templates/faq.html:245
+msgid ""
+"I do not have to log in to registered account. What could cause this problem?"
+msgstr ""
+"I do not have to log in to registered account. What could cause this problem?"
+
+#: templates/faq.html:252
+msgid ""
+"Sometimes these kinds of problems are caused by errors in your web\n"
+"                                                browser. No reason to worry, "
+"you just have to wait a few\n"
+"                                                minutes and then try to log "
+"in again. Also,\n"
+"                                                you need to clear the cache "
+"of your Web browser. If the problem\n"
+"                                                persists, please contact us "
+"through\n"
+"                                                the support."
+msgstr ""
+"Sometimes these kinds of problems are caused by errors in your web\n"
+"                                                browser. No reason to worry, "
+"you just have to wait a few\n"
+"                                                minutes and then try to log "
+"in again. Also,\n"
+"                                                you need to clear the cache "
+"of your Web browser. If the problem\n"
+"                                                persists, please contact us "
+"through\n"
+"                                                the support."
+
+#: templates/faq.html:269
+msgid "How secure is your website and my account information?"
+msgstr "How secure is your website and my account information?"
+
+#: templates/faq.html:277
+msgid ""
+"We have a wide range of security measures to protect your account. Our\n"
+"                                                site is protected from DDoS "
+"attacks, all data\n"
+"                                                is encrypted EV SSL, we use "
+"the same license script, best antivirus\n"
+"                                                software monitors a\n"
+"                                                site's security every second "
+"24/7."
+msgstr ""
+"We have a wide range of security measures to protect your account. Our\n"
+"                                                site is protected from DDoS "
+"attacks, all data\n"
+"                                                is encrypted EV SSL, we use "
+"the same license script, best antivirus\n"
+"                                                software monitors a\n"
+"                                                site's security every second "
+"24/7."
+
+#: templates/faq.html:293
+msgid "Which e-currencies do you accept?"
+msgstr "Which e-currencies do you accept?"
+
+#: templates/faq.html:300
+msgid ""
+"For your convenience, we accept: Perfect Money,\n"
+"                                Payeer, Bitcoin, Etherium, Qiwi, AdvCash, "
+"Yandex Money, DASH, DOGE, LITECOIN"
+msgstr ""
+"For your convenience, we accept: Perfect Money,\n"
+"                                Payeer, Bitcoin, Etherium, Qiwi, AdvCash, "
+"Yandex Money, DASH, DOGE, LITECOIN"
+
+#: templates/faq.html:313
+msgid "Can I put a few deposits at the same time?"
+msgstr "Can I put a few deposits at the same time?"
+
+#: templates/faq.html:320
+msgid ""
+"Yes, you can have an unlimited number of deposits,\n"
+"                                            but each of them will be handled "
+"separately."
+msgstr ""
+"Yes, you can have an unlimited number of deposits,\n"
+"                                            but each of them will be handled "
+"separately."
+
+#: templates/faq.html:333
+msgid ""
+"After I make a withdrawal request, when credited to my e-wallet will be done?"
+msgstr ""
+"After I make a withdrawal request, when credited to my e-wallet will be done?"
+
+#: templates/faq.html:340
+msgid ""
+"All requests for withdrawal are processed automatically and credited to your "
+"electronic purse is made instantly."
+msgstr ""
+"All requests for withdrawal are processed automatically and credited to your "
+"electronic purse is made instantly."
+
+#: templates/history.html:2 templates/history.html:3
+msgid "History"
+msgstr "History"
+
+#: templates/index.html:2 templates/plugins/menu.html:9
+msgid "Home"
+msgstr "Home"
+
+#: templates/index.html:18
+msgid "Новая жизнь!"
+msgstr "New Life"
+
+#: templates/index.html:23
+msgid "Casino Investment"
+msgstr "Casino Investmen"
+
+#: templates/index.html:27
+msgid "Самый простой способ"
+msgstr "The easiest way"
+
+#: templates/index.html:31
+msgid "инвестировать деньги"
+msgstr "to invest money"
+
+#: templates/index.html:35
+msgid "когда-либо существовавший"
+msgstr "you've ever seen"
+
+#: templates/index.html:42
+msgid "Легко и Надежно"
+msgstr "Easy and Reliably"
+
+#: templates/index.html:46
+msgid "Создайте депозит"
+msgstr "Create deposit"
+
+#: templates/index.html:50
+msgid "И заберите деньги"
+msgstr "and Get your money"
+
+#: templates/index.html:72
+msgid "Не испытывай удачу"
+msgstr "Don't try your luck"
+
+#: templates/index.html:72
+msgid "Контроллируй Ее"
+msgstr "controll it"
+
+#: templates/index.html:85
+msgid "Простой и быстрый <br> процесс"
+msgstr "Simple and fast <br> process"
+
+#: templates/index.html:89
+msgid ""
+"Никакой возни, никаких ожиданий. Быстрый и интуитивно\n"
+"                            понятный процесс инвестирования разработан "
+"специально, чтобы вы могли приделять больше\n"
+"                            внимания другим задачам."
+msgstr ""
+"No fuss, no expectations. Quick and intuitive \n"
+"clear investment process developed"
+"specially so you can attach more \n"
+"attention to other tasks."
+
+#: templates/index.html:104
+msgid "Надежная <br> защита"
+msgstr "Reliable <br> protection"
+
+#: templates/index.html:108
+msgid ""
+" Инновационные современные технологии безопасности\n"
+"                            гарантируют надежность и полную сохранность всех "
+"ваших вложений "
+msgstr ""
+"Innovative modern security technology \n"
+"guarantee the reliability and complete safety of all"
+"your investment"
+#: templates/index.html:122
+msgid "Многоуровневый <br> Бизнес"
+msgstr "Multi Level <br> Business"
+
+#: templates/index.html:126
+msgid ""
+" Casino Investment обеспечивает эффективную\n"
+"                            диверсификацию капитала между проектами и "
+"стартапами, что гарантирует стабильный и высокий\n"
+"                            уровень прибыли"
+msgstr ""
+"Casino Investment provides efficient \n"
+"capital diversification between projects and"
+"startups that guarantees stable and high \n"
+"profit level"
+
+#: templates/index.html:141
+msgid " Профессиональный<br> Маркетинг"
+msgstr "Professional <br> Marketing"
+
+#: templates/index.html:144
+msgid ""
+"Маркетологи Casino Investment одни из самых лучших\n"
+"                            специалистов в мире и имеют за спиной огромный "
+"опыт работы в даной\n"
+"                            области "
+msgstr ""
+"Casino Investment Marketers are some of the best \n"
+"specialists in the world and have a huge behind"
+"Dana Experience \n"
+"areas"
+
+#: templates/index.html:167
+msgid ""
+"                            <i class=\"h5\">Хотите зарабатывать на казино, "
+"но не хотите рисковать?</i><br> Тогда вы пришли\n"
+"                            в нужное место."
+msgstr ""
+"<i class = \" h5 \"> Want to make money at the casino,"
+"but you don't want to risk it? </i> <br> Then you came \n"
+"in the right place."
+
+#: templates/index.html:170
+msgid ""
+"                            <p><i>Casino Investment</i> это уникальная "
+"платформа позволяющая абсолютно любому человеку\n"
+"                                зарабатывать стабильную, высокую прибыль на "
+"казино не испытывая судьбу. </p>\n"
+"                            <p> Инвестируя в <i>Casino Investment</i>, вы "
+"становитесь частью огромной семьи,\n"
+"                                совладельцем сети казино и лотереи.\n"
+"                                Наша команда не просто инвестирует за вас в "
+"нужный проект, но и исключит риски с помощью\n"
+"                                лучших трейдеров на бирже. </p>\n"
+"                            <p> Получайте финансовую независимость и "
+"стабильный безопасный доход вместе с <i>Casino\n"
+"                                Investment</i>. </p>"
+msgstr ""
+"<p> <i> Casino Investment </i> is unique."
+"a platform that allows absolutely anyone \n"
+"earn a stable, high profit on"
+"the casino is not tempting fate. </p> \n"
+"<p> By investing in <i> Casino Investment </i>, you"
+"become part of a huge family, \n"
+"co-owner of casino and lottery networks. \n"
+"Our team is not just investing for you in"
+"the desired project, but also eliminates the risks using \n"
+"The best traders on the exchange. </p> \n"
+"<p> Get financial independence and"
+"stable safe income with <i> Casino \n"
+"Investment </i>. </p>"
+#: templates/index.html:182
+msgid "Подробнее"
+msgstr "Read more"
+
+#: templates/index.html:190
+msgid "Начать зарабатывать"
+msgstr "Start earning"
+
+#: templates/index.html:210
+msgid "Готовы к изменениям в лучшую сторону?"
+msgstr "Ready to change for the better?"
+
+#: templates/index.html:218
+msgid "Все максимально просто"
+msgstr "It's as simple as possible"
+
+#: templates/index.html:219
+msgid "Чтобы начать получать прибыль, нужно всего 4 шага:"
+msgstr "To start making profits, you need only 4 steps:"
+
+#: templates/index.html:232
+msgid "Регистрация"
+msgstr "Registration"
+
+#: templates/index.html:233
+msgid "Создайте новый аккаунт за пару кликов"
+msgstr "Create a new account with a couple of clicks"
+
+#: templates/index.html:247
+msgid "Пополнение счета"
+msgstr "Refill the balance"
+
+#: templates/index.html:248
+msgid "Внесите деньги на личный кошелек"
+msgstr "Deposit money into your personal wallet"
+
+#: templates/index.html:262
+msgid "Создание контракта"
+msgstr "Creating a contract"
+
+#: templates/index.html:263
+msgid "Выберите тариф, укажите сумму и подтвердите выбор"
+msgstr "Select a rate, specify the amount and confirm"
+
+#: templates/index.html:277
+msgid "Получение прибыли"
+msgstr "Receiving a profit"
+
+#: templates/index.html:278
+msgid "По истечению строка заберите деньги"
+msgstr "At the expiration of the time take away money"
+
+#: templates/index.html:288
+msgid "Начать Зарабатывать"
+msgstr "Start Earning"
+
+#: templates/index.html:304
+msgid "Тарифы"
+msgstr "Plans"
+
+#: templates/index.html:318
+msgid " в день"
+msgstr "daily"
+
+#: templates/index.html:322
+msgid "Дней"
+msgstr "Days"
+
+#: templates/index.html:324
+msgid "Месячная ставка"
+msgstr "Monthly rate"
+
+#: templates/index.html:332
+msgid "Ввод:"
+msgstr "Payin:"
+
+#: templates/index.html:335
+msgid "Выплата:"
+msgstr "Payout:"
+
+#: templates/index.html:354
+msgid "Начать Сейчас"
+msgstr "Start Now"
+
+#: templates/index.html:379
+msgid "Готовы изменить свою жизнь?"
+msgstr "Ready to change your life?"
+
+#: templates/index.html:387
+msgid "Присоединиться"
+msgstr "Join team"
+
+#: templates/new_contract.html:2 templates/new_contract.html:3
+#: templates/new_contract.html:10 templates/plugins/dashnav.html:9
+#: templates/plugins/dashnav.html:10
+msgid "New Deposit"
+msgstr "New Deposit"
+
+#: templates/new_contract.html:56
+msgid "Create Contract"
+msgstr "Create Contract"
+
+#: templates/overview.html:2 templates/overview.html:9
+#: templates/plugins/dashnav.html:15 templates/plugins/dashnav.html:16
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: templates/overview.html:26
+msgid "You have no opened contracts."
+msgstr "You have no opened contracts."
+
+#: templates/overview.html:27
+msgid "Create Now."
+msgstr "Create Now."
+
+#: templates/overview.html:43
+msgid "Cancel the contract"
+msgstr "Cancel the contract"
+
+#: templates/overview.html:55
+msgid "out"
+msgstr "out"
+
+#: templates/overview.html:62
+msgid "Days"
+msgstr "Days"
+
+#: templates/overview.html:63
+msgid "Annual Rate"
+msgstr "Monthly rate"
+
+#: templates/overview.html:65
+msgid "Contract"
+msgstr "Contract"
+
+#: templates/overview.html:79
+msgid "d"
+msgstr "d"
+
+#: templates/overview.html:79
+msgid "h"
+msgstr "h"
+
+#: templates/overview.html:80
+msgid "m"
+msgstr "m"
+
+#: templates/overview.html:80
+msgid "s"
+msgstr "s"
+
+#: templates/overview.html:88
+msgid "Get Money"
+msgstr "Get Money"
+
+#: templates/overview.html:119
+msgid "Header"
+msgstr "Header"
+
+#: templates/overview.html:138
+msgid "Balance History"
+msgstr "Balance History"
+
+#: templates/overview.html:145
+msgid "From"
+msgstr "From"
+
+#: templates/overview.html:146
+msgid "To"
+msgstr "To"
+
+#: templates/overview.html:148
+msgid "Rate"
+msgstr "Rate"
+
+#: templates/overview.html:149
+msgid "Payout"
+msgstr "Payout"
+
+#: templates/overview.html:150
+msgid "ID"
+msgstr "ID"
+
+#: templates/plugins/dashnav.html:6 templates/plugins/dashnav.html:7
+msgid "Cash Out"
+msgstr "Cash Out"
+
+#: templates/plugins/dashnav.html:12 templates/plugins/dashnav.html:13
+msgid "Referals"
+msgstr "Referals"
+
+#: templates/plugins/menu.html:12
+msgid "About Us"
+msgstr "About Us"
+
+#: templates/plugins/menu.html:18
+msgid "Rules"
+msgstr "Rules"
+
+#: templates/plugins/menu.html:21
+msgid "Contacts"
+msgstr "Contacts"
+
+#: templates/referal.html:2 templates/referal.html:3 templates/referal.html:9
+#: templates/referal.html:22
+msgid "Referal"
+msgstr "Referal"
+
+#: templates/referal.html:14
+msgid "Your referal link:"
+msgstr "Your referal link:"
+
+#: templates/referal.html:23
+msgid "Date"
+msgstr "Date"
+
+#: templates/referal.html:56
+msgid "The link was copied successfull"
+msgstr "The link was copied successfull"
+
+#: templates/rules.html:2
+msgid "Правила"
+msgstr "Rules"
+
+#: templates/rules.html:9
+msgid "TERMS AND AGREEMENTS"
+msgstr "TERMS AND AGREEMENTS"
+
+#: templates/rules.html:20
+msgid ""
+"Using Casino Investment program you agree to the terms of use, privacy "
+"policies, as well as the principles and rules of use, even if you have not "
+"read them. If you do not agree with any of these contracts, you should not "
+"use our web-site."
+msgstr ""
+"Using Casino Investment program you agree to the terms of use, privacy "
+"policies, as well as the principles and rules of use, even if you have not "
+"read them. If you do not agree with any of these contracts, you should not "
+"use our web-site."
+
+#: templates/rules.html:21
+msgid ""
+"Casino Investment reserves the right to amend and / or modify any of the "
+"rules and conditions of use. Casino Investment reserves the right to change "
+"this agreement from time to time, by notice in a few days all users of a web-"
+"site. Your subsequent use of the Site constitutes your acceptance of such "
+"changes and / or additions. It is recommended to read the terms of use and "
+"privacy policy as often as possible."
+msgstr ""
+"Casino Investment reserves the right to amend and / or modify any of the "
+"rules and conditions of use. Casino Investment reserves the right to change "
+"this agreement from time to time, by notice in a few days all users of a web-"
+"site. Your subsequent use of the Site constitutes your acceptance of such "
+"changes and / or additions. It is recommended to read the terms of use and "
+"privacy policy as often as possible."
+
+#: templates/rules.html:23
+msgid "COPYRIGHT"
+msgstr "COPYRIGHT"
+
+#: templates/rules.html:24
+msgid ""
+"Design, text, graphics, logos, button icons, images, audio and video "
+"content, their selection and arrangement, and all software on the website "
+"are protected by copyright (c) 2018 Casino Investment ."
+msgstr ""
+"Design, text, graphics, logos, button icons, images, audio and video "
+"content, their selection and arrangement, and all software on the website "
+"are protected by copyright (c) 2018 Casino Investment ."
+
+#: templates/rules.html:25
+msgid ""
+"Compilation (collection, arrangement, and assembly) of all content on the "
+"site is the exclusive property of Casino Investment (the C) and is protected "
+"by international copyright laws."
+msgstr ""
+"Compilation (collection, arrangement, and assembly) of all content on the "
+"site is the exclusive property of Casino Investment (the C) and is protected "
+"by international copyright laws."
+
+#: templates/rules.html:27
+msgid "PROTECTION AGAINST FRAUD"
+msgstr "PROTECTION AGAINST FRAUD"
+
+#: templates/rules.html:28
+msgid ""
+"As part of our acceptance of payment processing procedures, the company's "
+"specialists review all transactions for fraud or other unauthorized or "
+"illegal activities. The Company reserves the right to refuse to process a "
+"payment because of suspicions of fraud, unauthorized or illegal activities. "
+"Such measures have been taken in order to protect our customers as well as "
+"companies from fraud or other illegal activities."
+msgstr ""
+"As part of our acceptance of payment processing procedures, the company's "
+"specialists review all transactions for fraud or other unauthorized or "
+"illegal activities. The Company reserves the right to refuse to process a "
+"payment because of suspicions of fraud, unauthorized or illegal activities. "
+"Such measures have been taken in order to protect our customers as well as "
+"companies from fraud or other illegal activities."
+
+#: templates/rules.html:29
+msgid ""
+"The company Casino Investment is not responsible for any loss due to sharing "
+"passwords or identity theft. It is strongly recommended to ensure maximum "
+"security of your personal data needed for authentication and access to the "
+"personal account and settings. Do not give your personal information to "
+"third parties."
+msgstr ""
+"The company Casino Investment is not responsible for any loss due to sharing "
+"passwords or identity theft. It is strongly recommended to ensure maximum "
+"security of your personal data needed for authentication and access to the "
+"personal account and settings. Do not give your personal information to "
+"third parties."
+
+#: templates/rules.html:31
+msgid "GENERAL PROVISIONS"
+msgstr "GENERAL PROVISIONS"
+
+#: templates/rules.html:32
+msgid ""
+"By agreeing to the Terms of Use, you automatically confirm that you are of "
+"legal age in the country of which you are using this site and do not violate "
+"any laws of your state. All materials and information provided by the Casino "
+"Investment intended to be used only for personal, educational or "
+"informational purposes only."
+msgstr ""
+"By agreeing to the Terms of Use, you automatically confirm that you are of "
+"legal age in the country of which you are using this site and do not violate "
+"any laws of your state. All materials and information provided by the Casino "
+"Investment intended to be used only for personal, educational or "
+"informational purposes only."
+
+#: templates/rules.html:33
+msgid ""
+"You assume the obligation to pay tax on the profits, levied according to the "
+"legislation of the United Kingdom. Profits earned in the territory of that "
+"State, is liable to tax, irrespective of the place of residence of the "
+"formal, the actual residence of the person or the country in which the "
+"company is registered."
+msgstr ""
+"You assume the obligation to pay tax on the profits, levied according to the "
+"legislation of the United Kingdom. Profits earned in the territory of that "
+"State, is liable to tax, irrespective of the place of residence of the "
+"formal, the actual residence of the person or the country in which the "
+"company is registered."
+
+#: templates/rules.html:34
+msgid ""
+"Any financial transactions, designed according to the contract are "
+"definitive and irreversible. In order to prevent fraud and cheating, it is "
+"expressly prohibited the creation of joint payment system for different "
+"users. If such abuses are discovered, the company Casino Investment reserves "
+"the right to terminate all affiliate of charge and limited functionality for "
+"such accounts and accounts."
+msgstr ""
+"Any financial transactions, designed according to the contract are "
+"definitive and irreversible. In order to prevent fraud and cheating, it is "
+"expressly prohibited the creation of joint payment system for different "
+"users. If such abuses are discovered, the company Casino Investment reserves "
+"the right to terminate all affiliate of charge and limited functionality for "
+"such accounts and accounts."
+
+#: templates/rules.html:36
+msgid ""
+"Any breach of this agreement as a whole or individual items can result in "
+"permanent account suspension."
+msgstr ""
+"Any breach of this agreement as a whole or individual items can result in "
+"permanent account suspension."
+
+#: templates/snippets/ajax_registration.html:19
+msgid "Login"
+msgstr "Login"
+
+#: templates/snippets/ajax_registration.html:23
+msgid "Register"
+msgstr "Register"
+
+#: untitled/settings.py:98
+msgid "English"
+msgstr "English"
+
+#: untitled/settings.py:99
+msgid "Русский"
+msgstr "Русский"

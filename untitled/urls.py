@@ -1,8 +1,9 @@
 import notifications.urls
 from django.conf.urls import include, url
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
 
+from Investions.views.static_pages import mark_all_as_read
 from django_freekassa.views import res
 from Investions import views
 from django.conf.urls.i18n import i18n_patterns
@@ -24,6 +25,7 @@ urlpatterns += i18n_patterns(
     path('faq/', views.page_faq, name='faq'),
     path('terms/', views.page_rules, name='rules'),
     url('^notifications/', include(notifications.urls, namespace='notifications')),
+    re_path(r'^mark-all-as-read/$', mark_all_as_read, name='mark_all_as_read'),
     url(r"^referrals/", include("pinax.referrals.urls", namespace="pinax_referrals")),
     # path('news/', include(news_patterns, namespace='news')),
     path('contact/', views.page_contact, name='contact'),

@@ -54,6 +54,7 @@
                         <a class="nav-link dropdown-toggle" id="notifyDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell"></i><sup>{% live_notify_badge %}</sup></a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="notifyDropdownMenuLink">
+                            <a href="{% url 'mark_all_as_read' %}" next="{{ request.path }}">{% trans 'Mark all as read' %}</a>
                             {% live_notify_list %}{# TODO notifications output and clearing #}
                         </div>
                     </li>
@@ -145,7 +146,7 @@
 <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/revolution.js' %}"></script>
 <script src="{% static 'notifications/notify.js' %}" type="text/javascript"></script>
-{% register_notify_callbacks callbacks='fill_notification_list,fill_notification_badge' %}
+{% register_notify_callbacks callbacks='fill_notification_list,fill_notification_badge' refresh_period=60 %}
 {% block exjs %}
     <script type="text/javascript">
         $(document).ready(function () {
