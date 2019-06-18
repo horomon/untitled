@@ -2078,7 +2078,7 @@ msgstr "Пополнение"
 
 #: templates/cash_in.html:9
 msgid "funds in"
-msgstr "Вывод"
+msgstr "Пополнение"
 
 #: templates/cash_in.html:19
 msgid "Сумма пополнения"
